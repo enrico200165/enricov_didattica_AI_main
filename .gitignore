@@ -1,0 +1,98 @@
+# === Sistema operativo ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Editor / IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# === File temporanei di Office (Word, PowerPoint) ===
+~$*.docx
+~$*.pptx
+~$*.doc
+~$*.ppt
+*.tmp
+
+# === File temporanei di LaTeX / Pandoc (generati durante la conversione a PDF) ===
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.nav
+*.snm
+*.vrb
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.env
+.venv/
+venv/
+env/
+ENV/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# === R ===
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+*.Rout
+Rplots.pdf
+
+# === Java ===
+*.class
+target/
+build/
+.gradle/
+.m2/
+*.jar
+!lib/*.jar
+hs_err_pid*
+
+# === Node.js ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.yarn/
+.pnp.*
+package-lock.json.bak
+dist/
+.eslintcache
+.env.local
+.env.*.local
+
+# === Docker ===
+*.pid
+docker-compose.override.yml
+.docker/
+
+# === Log e file temporanei generici ===
+*.log
+*.bak
+*.orig

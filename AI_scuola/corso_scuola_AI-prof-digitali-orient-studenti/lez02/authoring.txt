@@ -1,0 +1,4 @@
+
+aggiungere il processo di sviluppo recuperandolo 
+- dalla specializzazione data-science 
+- da arcitura
