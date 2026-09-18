@@ -4,7 +4,7 @@
 
 Prima di entrare nel dettaglio, alcune scelte fatte in assenza di indicazioni più specifiche, così sono visibili e modificabili:
 
-- come framework di deep learning è stato scelto Keras su TensorFlow, perché la sua sintassi ad alto livello è più adatta a un pubblico di 16-18 anni senza basi pregresse; PyTorch viene solo citato per completezza nella lezione 15.
+- come framework di deep learning è stato scelto **Keras su TensorFlow**, perché la sua sintassi ad alto livello è *più adatta a un pubblico di 16-18* anni senza basi pregresse; PyTorch viene solo citato per completezza nella lezione 15.
 - non viene trattato scikit-learn e il machine learning "classico" (regressione, alberi decisionali, eccetera), perché la descrizione del modulo B.8 parla esplicitamente di "basi matematiche e logiche delle reti neurali": il corso è quindi orientato a Python più NumPy più un primo contatto con le reti neurali, non a un corso generale di ML.
 - gli esercizi che coinvolgono l'addestramento di una rete neurale (sessioni 4 e 5) usano dataset minuscoli (XOR, un sottoinsieme di poche centinaia di immagini MNIST, o dataset sintetici a 2 variabili) che si addestrano in pochi secondi su CPU, per rispettare il vincolo del laptop di fascia bassa.
 - per lo stesso motivo, come ambiente di lavoro predefinito viene proposto Google Colab (gira nel browser, non richiede installazioni né una macchina potente); l'installazione locale con Jupyter viene comunque insegnata come alternativa, per chi vuole lavorare offline.
@@ -27,11 +27,20 @@ Prima di entrare nel dettaglio, alcune scelte fatte in assenza di indicazioni pi
 
 Prima di scrivere il syllabus sono stati cercati corsi open source simili, per verificare se già esiste materiale riutilizzabile o da cui prendere ispirazione. I più pertinenti sono questi tre.
 
-Microsoft AI for Beginners è un curriculum open source di 12 settimane e 24 lezioni che parte dai concetti classici di intelligenza artificiale e arriva alle reti neurali e al deep learning, con notebook Jupyter eseguibili sia in TensorFlow sia in PyTorch: https://github.com/microsoft/AI-For-Beginners. È la fonte più vicina nei contenuti (percettrone, reti neurali, framework di deep learning), anche se pensata per un pubblico più ampio e con un ritmo più lento del nostro.
+### **Microsoft AI for Beginners**  
 
-Microsoft ML for Beginners è il curriculum "gemello" dedicato al machine learning classico con Scikit-learn, utile come riferimento se in futuro si volesse ampliare il corso in quella direzione: https://github.com/microsoft/ML-For-Beginners.
+è un curriculum open source di 12 settimane e 24 lezioni che parte dai concetti classici di intelligenza artificiale e arriva alle reti neurali e al deep learning, con notebook Jupyter eseguibili sia in TensorFlow sia in PyTorch: https://github.com/microsoft/AI-For-Beginners.  
+È la fonte più vicina nei contenuti (percettrone, reti neurali, framework di deep learning), anche se pensata per un pubblico più ampio e con un ritmo più lento del nostro.
 
-Intro to AI Course (Intro-Course-AI-ML/LessonMaterials) è un corso open source pensato originariamente per studenti delle scuole medie americane, strutturato in notebook Jupyter progressivi che vanno dai concetti di machine learning al deep learning con Keras: https://github.com/Intro-Course-AI-ML/LessonMaterials. È il riferimento più vicino per età del pubblico e per l'uso di Keras come prima libreria di deep learning.
+### Microsoft ML for Beginners  
+
+è il curriculum "gemello" dedicato al machine learning classico con Scikit-learn, utile come riferimento se in futuro si volesse ampliare il corso in quella direzione: https://github.com/microsoft/ML-For-Beginners. 
+
+### Intro to AI Course (Intro-Course-AI-ML/LessonMaterials)  
+
+è un corso open source pensato originariamente per studenti delle scuole medie americane, strutturato in notebook Jupyter progressivi che vanno dai concetti di machine learning al deep learning con Keras:  
+https://github.com/Intro-Course-AI-ML/LessonMaterials.  
+È il riferimento più vicino per età del pubblico e per l'uso di Keras come prima libreria di deep learning.
 
 Nessuno dei tre è tarato su 18 ore né segue esattamente la nostra scansione in lezioni da un'ora con editor/IDE e notebook Jupyter spiegati come lezioni dedicate, ma sono buone fonti da cui riprendere esempi, dataset e impostazione dei notebook.
 
@@ -105,7 +114,8 @@ mindmap
 
 #### Lezione 1 - Intelligenza artificiale, machine learning e perché Python
 
-Obiettivi: dare un quadro comune di cosa sono intelligenza artificiale, machine learning e deep learning, e di come si collocano l'uno rispetto all'altro; motivare la scelta di Python come linguaggio del corso.
+Obiettivi: dare un quadro comune di cosa sono intelligenza artificiale, machine learning e deep learning, e di come si collocano l'uno rispetto all'altro;  
+motivare la scelta di Python come linguaggio del corso.
 
 Contenuti: differenza tra AI, ML e DL con esempi concreti familiari agli studenti (riconoscimento vocale, raccomandazioni video, filtri antispam); breve storia e stato dell'arte; perché Python è il linguaggio più usato in questo campo (leggibilità, librerie disponibili, comunità).
 
@@ -115,13 +125,29 @@ Esercizio (20-25 minuti): nessun codice ancora; attività di classificazione in 
 
 #### Lezione 2 - Editor e IDE gratuiti per programmare in Python
 
-Obiettivi: conoscere le principali opzioni gratuite per scrivere ed eseguire codice Python, e scegliere quella più adatta al proprio laptop.
+#### Obiettivi  
 
-Contenuti: differenza tra editor di testo, IDE e ambiente cloud; rassegna di Visual Studio Code con estensione Python, PyCharm Community Edition, Thonny (pensato per principianti, molto leggero) e Google Colab (nessuna installazione, tutto nel browser). Per ciascuno: requisiti hardware, punti di forza, punti debol. Raccomandazione per laptop di fascia bassa: Google Colab come opzione principale, Thonny come alternativa offline più leggera.
+conoscere le principali opzioni gratuite per scrivere ed eseguire codice Python, e scegliere quella più adatta al proprio laptop.
 
-Diagramma previsto: una tabella comparativa (già inclusa nei contenuti) più un diagramma Mermaid a albero decisionale "che strumento uso in base al mio laptop e alla connessione disponibile".
+Contenuti: differenza tra editor di testo, IDE e ambiente cloud; rassegna di  
 
-Esercizio (25-30 minuti): gli studenti aprono Google Colab con il proprio account, creano un notebook vuoto, scrivono ed eseguono la riga `print("Ciao mondo")`; chi vuole prova anche a installare Thonny in locale.
+- Visual Studio Code con estensione Python,  
+- PyCharm Community Edition,  
+- Thonny (pensato per principianti, molto leggero) e  
+- Google Colab (nessuna installazione, tutto nel browser).  
+
+Per ciascuno: requisiti hardware, punti di forza, punti deboli.  
+Raccomandazione per laptop di fascia bassa:  
+
+- Google Colab come opzione principale,  
+- Thonny come alternativa offline più leggera.
+
+Diagramma previsto:  
+una tabella comparativa (già inclusa nei contenuti) più un diagramma Mermaid a albero decisionale "che strumento uso in base al mio laptop e alla connessione disponibile".
+
+Esercizio (25-30 minuti):  
+gli studenti aprono Google Colab con il proprio account, creano un notebook vuoto, scrivono ed eseguono la riga `print("Ciao mondo")`;  
+chi vuole prova anche a installare Thonny in locale.
 
 #### Lezione 3 - Cos'è un notebook Jupyter e come si usa
 
