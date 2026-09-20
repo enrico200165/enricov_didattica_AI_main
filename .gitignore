@@ -8,6 +8,19 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 
+
+# ############## AUTHORING #####################################
+
+# steps della pipeline
+**/step*/
+
+# files (normalmente sono generati automaticamente estratti dal markdown)
+# files non generati automaticamente o da preservare metterli in directory 
+# con suffisso _src, ex. imgs_src, mermaid_src
+**/mermaid/*
+**/imgs/*
+
+
 # === Editor / IDE ===
 .vscode/
 .idea/
