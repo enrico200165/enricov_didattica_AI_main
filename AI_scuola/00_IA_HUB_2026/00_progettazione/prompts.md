@@ -4,9 +4,36 @@
 ## Genera un syllabul per  un corso che poi dovrà essere generato con i seguenti criteri (per ora solo il syllabus)  
 
 
-## Crea un corso con i seguenti criteri:
+## Criteri creazione corso  
 
-### Criteri generali
+### Audience del corso: docenti che imparano a insegnare le materie descritte nel tema del corso  
+
+Il corso è parte di un gruppo di 7-8 corsi destinati a docenti.  
+La tematica del corso è ciò che i docenti dovranno imparare ad insegnare, applicando al massimo didattica laboratoriale, oltre a insegnare la teoria necessaria.
+
+I contenuti del corso vanno strutturati i due tracce:  
+
+- traccia "corso per studenti"   
+80% - 90% come normale corso per studenti di scuola secondaria superiore, completo di teoria e pratica, massimizzando la pratica laboratoriale  
+
+- traccia "progettazione didattica e pratica della didattica laboratoriale"  
+10% - 20% dei contenuti.
+Considerazioni indirizzate ai docenti. Le considerazioni spiegano 
+  - la logica sottostante alla progettazione didattica,  
+  - come impostare e supportare il laboratorio  
+
+La parte di normale corso dovrà spiegare anche, e bene, tutte le piattaforme e strumenti usati nella pratica, ad esempio:
+- il corso di Python nella traccia "corso per studenti" non deve solo spiegare il linguaggio Python ma fornire una panoramica di IDE ed editors, spiegare in profondita una IDE o un editor, spiegare a livello medio tramite una o più lezioni dedicate git e github
+
+il corso sul data science mnella traccia "progettazione didattica e pratica della didattica laboratoriale" dovrà spiegare gli strumenti laboratoriali e pratici utilizzabili dal docente, 
+ad esempio:  
+- cosa è Kaggle, cosa offre, quali sono i corsi più adatti a studenti di secondaria,
+cosa offre per creare laboratori  
+- cosa sono i notebooks Jupyter, utilità didattica nei labs, cosa è Google Colab, sua efficacia ed utilità (e debolezze) nel creare didattica laboratoriale
+
+
+### Criteri generali  
+
 - syllabus articolato su 18 ore e tarato per studenti di 16 - 18 anni 
 - lezioni di tipo lezpub
 - è possibile che ci saranno a disposizione 3 o 4 ore per sessione ma le singole lezioni devono durare circa un'ora
