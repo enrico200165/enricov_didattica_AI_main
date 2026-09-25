@@ -4,7 +4,19 @@ Fonte: Avviso di selezione I.T.I.S. "G. Galilei" - AI School Hub, Snodo territor
 
 ## Informazioni generali comuni (Tipologia: Laboratori formativi sul campo per docenti con il coinvolgimento degli studenti)
 
-I corsi B.4, B.6 e B.8 appartengono tutti alla tipologia "Laboratori formativi sul campo", che prevede le seguenti caratteristiche comuni:
+I corsi B.4, B.6 e B.8 appartengono tutti alla tipologia "Laboratori formativi sul campo", qui descritta 
+
+    TIPOLOGIA: LABORATORI FORMATIVI SUL CAMPO PER DOCENTI CON IL
+    COINVOLGIMENTO DEGLI STUDENTI
+    
+    I Laboratori formativi sul campo, anche con il coinvolgimento degli studenti, consistono in cicli di incontri di tutoraggio, mentoring,
+    coaching, supervisione, job shadowing, affiancamento all’utilizzo efficace delle applicazioni e sistemi software di intelligenza artificiale e delle metodologie didattiche innovative anche connesse alle attività didattiche in classe, con rilascio finale di specifica
+    attestazione. Gli incontri si svolgono in presenza. I Laboratori formativi sul campo, anche con il coinvolgimento degli studenti, sono
+    erogati a gruppi di almeno 5 unità di personale che conseguono l’attestato finale. I Laboratori possono essere articolati in più
+    incontri. Ciascun incontro è tenuto da un formatore esperto circa la tematica del percorso.
+
+
+Questa tipologi prevede le seguenti caratteristiche comuni:
 
 - Ore per edizione: 18
 - Numero di edizioni: 8
@@ -16,6 +28,8 @@ I corsi B.4, B.6 e B.8 appartengono tutti alla tipologia "Laboratori formativi s
 - Al termine è previsto il rilascio di specifica attestazione
 - Periodo di svolgimento: luglio-dicembre 2026
 - Durata dell'incarico: dalla sottoscrizione della lettera di incarico fino al 31/12/2026 (con possibilità di differimento eccezionale del termine, solo per completare il progetto e per ritardi non imputabili al collaboratore)
+
+
 
 ## B.4 - "Cybersicurezza e IA: Difendere e attaccare: la sicurezza ai tempi dell'IA"
 

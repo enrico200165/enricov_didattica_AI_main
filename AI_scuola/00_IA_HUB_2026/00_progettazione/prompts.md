@@ -13,7 +13,7 @@ La tematica del corso è ciò che i docenti dovranno imparare ad insegnare, appl
 
 I contenuti del corso vanno strutturati i due tracce:  
 
-- traccia "corso per studenti"   
+- traccia "corso per studenti"  
 80% - 90% come normale corso per studenti di scuola secondaria superiore, completo di teoria e pratica, massimizzando la pratica laboratoriale  
 
 - traccia "progettazione didattica e pratica della didattica laboratoriale"  
@@ -44,6 +44,19 @@ cosa offre per creare laboratori
 - tieni presente che per la preview userò la preview standard di VSC e per generare pdf, docx Etc. userò pandoc
 - è desiderabile, se compatibile con le richieste precedenti, che dal markdown si possano generare anche presentazioni reveal.js
 - se esistono già corsi open source molto simili proponili
+
+### Generazione argomenti comuni da inserire a diversi livelli di dettaglio nei diversi corsi  
+
+Questi argomenti verranno inseriti in più di un corso con diversi livelli di approfondimento, e quindi di estensione dell'ambito e il livello di dettaglio della trattazione,
+
+Per ogni argomento crea una singola lezione con tre livelli di approfondimento "concetti essenziali", "base", "base-intermedio, i livelli debbono essere chiaramente identificati nella lezione in modo che si possausare una singola lezione ignorando i livelli non di interesse.
+Ogni livello deve essere autonomo e completo.
+
+Gli argomenti sono:  
+
+- didattica laboratoriale  (teorie cognitive e didattiche, casistiche un cui porta benefici e casistiche in cui non porta benefici, didattica laboratoriale e BES, aspetti pratici, in generale come progettare un laboratio efficace indipendentemente dalla materia, come creare laboratori di data science e AI, principali risorse totalmente gratuite)
+- Git e github 
+- Jupyter notebooks, Google colabs e altri simili notebooks gratuiti online
 
 ## Corso specifico da generare  
 
