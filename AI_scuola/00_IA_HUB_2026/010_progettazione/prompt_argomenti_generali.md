@@ -1,5 +1,11 @@
 
+# Contenuti comuni a più di un corso  
 
+## Contesto  
+
+Opera nell'ambito del progetto "IA HUB Galilei", se non lo trovi fermati e dimmelo.
+
+Tieni presente le informazioni di contesto incluse nel file contesto_prompts_corso.md allegato al progetto. Se non lo trovi fermati e dimmelo
 
 ### Generazione argomenti comuni da inserire a diversi livelli di dettaglio nei diversi corsi  
 
