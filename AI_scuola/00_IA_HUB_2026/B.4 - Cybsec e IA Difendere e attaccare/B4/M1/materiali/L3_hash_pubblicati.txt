@@ -1,0 +1,4 @@
+Hash SHA-256 pubblicati dall'autore dei file
+
+L3_programma_didattico.txt
+cc4da6bddb91cab14facf003437b07126c160183724efe9cabfae4f110fe49ac

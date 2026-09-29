@@ -1,0 +1,28 @@
+Return-Path: <notifiche@bancaaurora.example>
+Received: from mx.scuola.example (mx.scuola.example [192.0.2.10])
+        by imap.scuola.example; Tue, 15 Sep 2026 09:14:05 +0200
+Received: from mail-out.bancaaurora.example (mail-out.bancaaurora.example [198.51.100.25])
+        by mx.scuola.example; Tue, 15 Sep 2026 09:14:03 +0200
+Authentication-Results: mx.scuola.example;
+       spf=pass smtp.mailfrom=bancaaurora.example;
+       dkim=pass header.d=bancaaurora.example;
+       dmarc=pass header.from=bancaaurora.example
+From: "Banca Aurora" <notifiche@bancaaurora.example>
+To: studente.demo@scuola.example
+Subject: Estratto conto di agosto disponibile
+Date: Tue, 15 Sep 2026 09:14:00 +0200
+Message-ID: <20260915091400.4821@bancaaurora.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+Gentile cliente,
+
+l'estratto conto di agosto 2026 è disponibile nell'area riservata.
+
+Per consultarlo accedi come di consueto dall'app Banca Aurora o digitando
+direttamente l'indirizzo del sito nel browser.
+
+Banca Aurora non chiede mai via email, SMS o telefono password, codici
+di accesso o codici ricevuti via SMS.
+
+Banca Aurora - Servizio clienti

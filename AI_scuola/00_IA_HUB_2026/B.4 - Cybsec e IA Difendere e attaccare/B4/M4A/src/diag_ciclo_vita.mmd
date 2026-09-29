@@ -1,0 +1,7 @@
+flowchart LR
+    D[("Dati")] --> A["Addestramento"] --> M["Modello"] --> APP["Applicazione"] <--> U["Utenti"]
+    P1["avvelenamento<br/>(L13)"] -.-> D
+    P2["catena di fornitura:<br/>modelli e librerie<br/>non verificati"] -.-> M
+    P3["evasione:<br/>esempi avversari<br/>(L12)"] -.-> APP
+    P4["estrazione del modello,<br/>inferenza sui dati<br/>di addestramento"] -.-> APP
+    P5["prompt injection<br/>(L14-L15)"] -.-> APP

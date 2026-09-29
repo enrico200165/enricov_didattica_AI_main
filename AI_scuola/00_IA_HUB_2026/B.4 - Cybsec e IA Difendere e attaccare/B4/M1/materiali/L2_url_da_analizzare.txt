@@ -1,0 +1,18 @@
+Laboratorio L2 - URL da analizzare
+Dominio legittimo di Banca Aurora: bancaaurora.example
+
+1.  https://www.bancaaurora.example/login
+2.  https://bancaaurora.example/clienti/estratto-conto?mese=08
+3.  http://bancaaurora.example.verifica-accessi.example/login
+4.  https://accesso-bancaaurora.example/area-clienti
+5.  https://bancaurora.example/login
+6.  https://app.bancaaurora.example/download
+7.  https://www.bancaaurora.example@sicuro-login.example/aurora
+8.  https://sicuro-login.example/www.bancaaurora.example/login
+9.  https://bancaaurora.example.com/login
+10. https://xn--bncaaurora-zqi.example/login
+11. https://assistenza.bancaaurora.example/faq#password
+12. https://short-link.example/aB3xQ9
+
+Per ogni URL indicare: schema, nome host, dominio registrato,
+appartiene a Banca Aurora? (sì / no / non determinabile), motivazione.

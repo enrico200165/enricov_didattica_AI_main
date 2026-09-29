@@ -1,0 +1,26 @@
+Return-Path: <avvisi@aurora-bancaonline.example>
+Received: from mx.scuola.example (mx.scuola.example [192.0.2.10])
+        by imap.scuola.example; Thu, 24 Sep 2026 10:02:31 +0200
+Received: from smtp.aurora-bancaonline.example (smtp.aurora-bancaonline.example [203.0.113.150])
+        by mx.scuola.example; Thu, 24 Sep 2026 10:02:29 +0200
+Authentication-Results: mx.scuola.example;
+       spf=pass smtp.mailfrom=aurora-bancaonline.example;
+       dkim=pass header.d=aurora-bancaonline.example;
+       dmarc=pass header.from=aurora-bancaonline.example
+From: "Banca Aurora" <avvisi@aurora-bancaonline.example>
+To: studente.demo@scuola.example
+Subject: Aggiornamento obbligatorio dei dati del documento di identità
+Date: Thu, 24 Sep 2026 10:02:25 +0200
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+
+<html><body>
+<p>Gentile cliente,</p>
+<p>in base alla normativa antiriciclaggio è necessario aggiornare i dati del documento di
+identità associato al conto entro il 30 settembre 2026.</p>
+<p>L'operazione richiede pochi minuti dall'area clienti:</p>
+<p><a href="https://aggiornamento-documenti.example/aurora/login">https://www.bancaaurora.example/area-clienti</a></p>
+<p>Per completare la verifica tenga a portata di mano il documento di identità e il codice
+che riceverà via SMS.</p>
+<p>Banca Aurora - Servizio clienti</p>
+</body></html>

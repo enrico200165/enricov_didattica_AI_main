@@ -1,0 +1,26 @@
+Return-Path: <bounce@invii-massivi.example>
+Received: from mx.scuola.example (mx.scuola.example [192.0.2.10])
+        by imap.scuola.example; Mon, 21 Sep 2026 23:47:12 +0200
+Received: from vps-4471.hosting-economico.example (unknown [203.0.113.77])
+        by mx.scuola.example; Mon, 21 Sep 2026 23:47:10 +0200
+Authentication-Results: mx.scuola.example;
+       spf=fail smtp.mailfrom=invii-massivi.example;
+       dkim=none;
+       dmarc=fail header.from=bancaaurora-sicurezza.example
+From: "Banca Aurora - Servizio Clienti" <notifiche@bancaaurora-sicurezza.example>
+Reply-To: assistenza.clienti.2026@mail-gratis.example
+To: studente.demo@scuola.example
+Subject: URGENTE: accesso sospeso, verifica entro 24 ore
+Date: Mon, 21 Sep 2026 23:47:05 +0200
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+
+<html><body>
+<p>Gentile Cliente,</p>
+<p>abbiamo rilevato un <b>accesso non autorizzato</b> al suo conto da un dispositivo sconosciuto.
+Per motivi di sicurezza il suo accesso è stato <b>temporaneamente sospeso</b>.</p>
+<p>Per riattivarlo è necessario verificare i suoi dati <b>entro 24 ore</b>, altrimenti il conto
+verrà bloccato definitivamente e le operazioni in corso annullate.</p>
+<p><a href="https://bancaaurora.example.verifica-accessi.example/riattiva?id=88213">Verifica ora il tuo account</a></p>
+<p>Cordiali saluti,<br>Ufficio Sicurezza Banca Aurora</p>
+</body></html>

@@ -1,0 +1,5 @@
+flowchart TB
+    P["dati privati<br/>(posta, registro,<br/>documenti)"] --- A(("agente"))
+    N["contenuti non fidati<br/>(email ricevute,<br/>pagine web)"] --- A
+    E["comunicazione<br/>verso l'esterno<br/>(invio, link, upload)"] --- A
+    A --> R["rischio: dati privati<br/>inviati all'esterno"]

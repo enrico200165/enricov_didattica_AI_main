@@ -1,0 +1,6 @@
+flowchart LR
+    S["istruzioni di sistema<br/>(sviluppatore)"] --> P["prompt:<br/>un unico testo"]
+    D["dati recuperati:<br/>pagine, documenti, email<br/>(chiunque può averli scritti)"] --> P
+    U["richiesta dell'utente"] --> P
+    P --> M["modello<br/>linguistico"] --> R["risposta"]
+    R --> A["applicazione:<br/>mostra la risposta<br/>o esegue azioni"]

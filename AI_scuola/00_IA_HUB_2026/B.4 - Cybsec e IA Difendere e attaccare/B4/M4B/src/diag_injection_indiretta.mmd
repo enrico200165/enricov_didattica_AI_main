@@ -1,0 +1,5 @@
+flowchart LR
+    ATT["attaccante"] -- "prepara un contenuto<br/>con istruzioni nascoste" --> C[("pagina web,<br/>documento, email")]
+    UT["utente"] -- "chiede: riassumi<br/>questo contenuto" --> APP["applicazione<br/>con modello"]
+    C -- "letto dall'applicazione" --> APP
+    APP -- "risposta alterata<br/>o azione non voluta" --> UT

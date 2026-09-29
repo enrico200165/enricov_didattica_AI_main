@@ -1,0 +1,7 @@
+flowchart LR
+    U["utente:<br/>obiettivo"] --> M["modello"]
+    M -- "sceglie un'azione" --> C{"controlli<br/>dell'applicazione:<br/>strumento consentito?<br/>serve conferma?"}
+    C -- "sì" --> T["strumento:<br/>email, web, file,<br/>calendario"]
+    C -- "no" --> B["azione bloccata<br/>o chiesta all'utente"]
+    T -- "risultato<br/>(anche contenuti<br/>non fidati)" --> M
+    M -- "fine" --> R["risposta<br/>all'utente"]

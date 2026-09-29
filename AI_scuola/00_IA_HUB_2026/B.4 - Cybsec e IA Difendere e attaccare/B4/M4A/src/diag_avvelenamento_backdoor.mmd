@@ -1,0 +1,12 @@
+flowchart TB
+    subgraph G["Degrado generale"]
+        direction LR
+        g1[("dati con molte<br/>etichette sbagliate")] --> g2["modello"] --> g3["sbaglia su tutti<br/>gli ingressi:<br/>accuratezza bassa"]
+    end
+    subgraph B["Backdoor"]
+        direction LR
+        b1[("dati con pochi esempi<br/>fraudolenti + grilletto<br/>etichettati 'legittimo'")] --> b2["modello"]
+        b2 --> b3["ingressi normali:<br/>funziona bene"]
+        b2 --> b4["ingressi con il grilletto:<br/>decisione voluta<br/>dall'attaccante"]
+    end
+    G ~~~ B
