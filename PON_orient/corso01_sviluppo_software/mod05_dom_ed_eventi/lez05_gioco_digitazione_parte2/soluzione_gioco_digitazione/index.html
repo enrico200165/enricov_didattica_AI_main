@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gioco di digitazione</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <h1>Gioco di digitazione</h1>
+      <p>Premere <strong>Inizia</strong>, poi digitare la frase parola per parola. Ogni parola si conferma con uno spazio; l'ultima si completa digitandola per intero.</p>
+
+      <!-- Frase da digitare: ogni parola in uno span, generato da JavaScript -->
+      <p id="frase"></p>
+
+      <!-- Messaggi di fine partita; aria-live: i lettori di schermo leggono gli aggiornamenti -->
+      <p id="messaggio" aria-live="polite"></p>
+
+      <div class="comandi">
+        <label for="digitato">Parola corrente</label>
+        <input type="text" id="digitato" autocomplete="off" spellcheck="false" disabled>
+        <button type="button" id="inizia">Inizia</button>
+      </div>
+
+      <h2>Risultati</h2>
+      <p id="record"></p>
+      <ol id="storico"></ol>
+      <button type="button" id="azzera">Cancella i risultati salvati</button>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background: #f5f5f5;
+  color: #222222;
+}
+
+main {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+#frase {
+  font-size: 1.4rem;
+  line-height: 2;
+  min-height: 3rem;
+}
+
+/* Parola da digitare */
+.evidenziata {
+  background-color: #ffe066;
+  border-radius: 0.25rem;
+}
+
+/* Campo di input quando il testo digitato non corrisponde alla parola */
+.errore {
+  background-color: #f8b4b4;
+  outline: 2px solid #c62828;
+}
+
+.comandi {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+input,
+button {
+  font-size: 1.1rem;
+  padding: 0.4rem 0.6rem;
+}

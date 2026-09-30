@@ -1,6 +1,3 @@
-
-*.zip
-
 # === Sistema operativo ===
 .DS_Store
 .DS_Store?

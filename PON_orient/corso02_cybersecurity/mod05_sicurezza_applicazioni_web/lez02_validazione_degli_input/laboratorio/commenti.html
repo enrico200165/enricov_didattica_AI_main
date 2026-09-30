@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <title>Commenti della classe</title>
+</head>
+<body>
+  <h1>Commenti della classe</h1>
+  <form id="modulo">
+    <label>Autore <input id="autore" required></label>
+    <label>Commento <input id="testo" required></label>
+    <button>Pubblica</button>
+  </form>
+  <p id="anteprima"></p>
+  <ul id="lista"></ul>
+  <script src="commenti.js"></script>
+  <script>
+    const lista = document.getElementById("lista");
+    const anteprima = document.getElementById("anteprima");
+    const testo = document.getElementById("testo");
+    testo.addEventListener("input", () => aggiornaAnteprima(anteprima, testo.value));
+    document.getElementById("modulo").addEventListener("submit", (evento) => {
+      evento.preventDefault();
+      aggiungiCommento(lista, document.getElementById("autore").value, testo.value);
+      evento.target.reset();
+      aggiornaAnteprima(anteprima, "");
+    });
+  </script>
+</body>
+</html>

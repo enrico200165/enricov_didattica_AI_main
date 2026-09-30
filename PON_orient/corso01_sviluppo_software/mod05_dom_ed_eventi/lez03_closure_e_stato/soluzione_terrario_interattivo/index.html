@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Il mio terrario virtuale</title>
+    <!-- Foglio di stile esterno (lezione 4.3) -->
+    <link rel="stylesheet" href="style.css">
+    <!-- defer: lo script viene eseguito dopo la lettura completa dell'HTML -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Il mio terrario</h1>
+      <div class="comandi">
+        <p id="conteggio" aria-live="polite">Piante nel barattolo: 0</p>
+        <button type="button" id="riordina">Rimetti a posto le piante</button>
+      </div>
+    </header>
+
+    <main><div id="pagina">
+      <!-- Colonna sinistra: piante da 1 a 7 -->
+      <aside id="contenitore-sinistro" class="contenitore" aria-label="Piante disponibili, colonna sinistra">
+        <div class="porta-pianta"><img class="pianta" id="pianta1" src="images/plant1.png" alt="pianta"></div>
+        <div class="porta-pianta"><img class="pianta" id="pianta2" src="images/plant2.png" alt="pianta"></div>
+        <div class="porta-pianta"><img class="pianta" id="pianta3" src="images/plant3.png" alt="pianta"></div>
+        <div class="porta-pianta"><img class="pianta" id="pianta4" src="images/plant4.png" alt="pianta"></div>
+        <div class="porta-pianta"><img class="pianta" id="pianta5" src="images/plant5.png" alt="pianta"></div>
+        <div class="porta-pianta"><img class="pianta" id="pianta6" src="images/plant6.png" alt="pianta"></div>
+        <div class="porta-pianta"><img class="pianta" id="pianta7" src="images/plant7.png" alt="pianta"></div>
+      </aside>
+
+      <!-- Colonna destra: piante da 8 a 14 -->
+      <aside id="contenitore-destro" class="contenitore" aria-label="Piante disponibili, colonna destra">
+        <div class="porta-pianta"><img class="pianta" id="pianta8" src="images/plant8.png" alt="pianta"></div>
+        <div class="porta-pianta"><img class="pianta" id="pianta9" src="images/plant9.png" alt="pianta"></div>
+        <div class="porta-pianta"><img class="pianta" id="pianta10" src="images/plant10.png" alt="pianta"></div>
+        <div class="porta-pianta"><img class="pianta" id="pianta11" src="images/plant11.png" alt="pianta"></div>
+        <div class="porta-pianta"><img class="pianta" id="pianta12" src="images/plant12.png" alt="pianta"></div>
+        <div class="porta-pianta"><img class="pianta" id="pianta13" src="images/plant13.png" alt="pianta"></div>
+        <div class="porta-pianta"><img class="pianta" id="pianta14" src="images/plant14.png" alt="pianta"></div>
+      </aside>
+
+      <!-- Il barattolo: forme disegnate interamente con il CSS (lezione 4.4) -->
+      <div id="terrario">
+        <div class="barattolo-collo"></div>
+        <div class="barattolo-pareti">
+          <div class="riflesso-lungo"></div>
+          <div class="riflesso-corto"></div>
+        </div>
+        <div class="terra"></div>
+        <div class="barattolo-fondo"></div>
+      </div>
+    </div>
+    </main>
+  </body>
+</html>

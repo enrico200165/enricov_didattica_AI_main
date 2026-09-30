@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background: #f5f5f5;
+  color: #222222;
+}
+
+header {
+  background: #2e7d32;
+  color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Mobile first: una colonna */
+.galleria {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  max-width: 1100px;       /* su schermi molto larghi il contenuto non si allarga oltre */
+  margin: 0 auto;          /* e resta centrato */
+}
+
+.scheda {
+  background: #ffffff;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.scheda img {
+  max-width: 100%;         /* l'immagine non supera mai la larghezza della scheda */
+  height: 150px;
+  object-fit: contain;     /* adatta l'immagine allo spazio senza deformarla */
+}
+
+/* Schermi da 700 pixel in su: schede affiancate, a capo quando serve */
+@media (min-width: 700px) {
+  .galleria {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .scheda {
+    flex: 1 1 220px;       /* larghezza di base 220px, poi crescono in parti uguali */
+  }
+}

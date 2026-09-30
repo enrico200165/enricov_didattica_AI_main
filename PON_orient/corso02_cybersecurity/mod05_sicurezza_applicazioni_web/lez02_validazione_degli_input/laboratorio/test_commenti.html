@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <title>Test dei commenti</title>
+</head>
+<body>
+  <h1>Test dei commenti</h1>
+  <ul id="lista"></ul>
+  <p id="anteprima"></p>
+  <pre id="esiti"></pre>
+  <script src="commenti.js"></script>
+  <script>
+    const esiti = [];
+    let superati = 0, falliti = 0;
+    function verifica(descrizione, condizione) {
+      if (condizione) { superati++; esiti.push("OK      " + descrizione); }
+      else { falliti++; esiti.push("ERRORE  " + descrizione); }
+    }
+    const lista = document.getElementById("lista");
+    const anteprima = document.getElementById("anteprima");
+
+    let voce = aggiungiCommento(lista, "Anna", "Bella lezione!");
+    verifica("commento semplice mostrato", voce.textContent === "Anna: Bella lezione!");
+    verifica("autore in grassetto", voce.querySelector("strong") !== null && voce.querySelector("strong").textContent === "Anna");
+
+    voce = aggiungiCommento(lista, "Bruno", "Per andare a capo in HTML si usa il tag <br>");
+    verifica("il tag citato nel testo è mostrato come testo", voce.textContent.endsWith("si usa il tag <br>"));
+    verifica("nessun elemento creato dal testo del commento", voce.querySelectorAll("br").length === 0);
+
+    voce = aggiungiCommento(lista, "<em>Carla</em>", "3 < 5 e 7 > 2");
+    verifica("nome dell'autore mostrato come testo", voce.querySelector("strong").textContent === "<em>Carla</em>");
+    verifica("simboli di confronto mostrati come testo", voce.textContent.endsWith("3 < 5 e 7 > 2"));
+    verifica("un solo elemento figlio: strong", voce.children.length === 1);
+
+    aggiornaAnteprima(anteprima, "Uso <b> per il grassetto");
+    verifica("anteprima mostrata come testo", anteprima.textContent === "Anteprima: Uso <b> per il grassetto");
+    verifica("anteprima senza elementi creati dal testo", anteprima.children.length === 0);
+
+    esiti.push("Test superati: " + superati + ", falliti: " + falliti);
+    document.getElementById("esiti").textContent = esiti.join("\n");
+  </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quiz di informatica</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Ordine: dati, logica, interfaccia. defer mantiene l'ordine di esecuzione -->
+    <script src="dati.js" defer></script>
+    <script src="logica.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <h1>Quiz di informatica</h1>
+      <p id="contatore"></p>
+      <h2 id="testo-domanda"></h2>
+      <div id="opzioni"></div>
+      <p id="esito" aria-live="polite"></p>
+      <button type="button" id="avanti" hidden>Avanti</button>
+      <p id="risultato" aria-live="polite"></p>
+      <button type="button" id="ricomincia" hidden>Ricomincia</button>
+    </main>
+  </body>
+</html>

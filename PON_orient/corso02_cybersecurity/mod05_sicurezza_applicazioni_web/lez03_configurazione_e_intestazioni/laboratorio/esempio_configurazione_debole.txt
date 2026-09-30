@@ -1,0 +1,7 @@
+HTTP/1.1 200 OK
+Content-Type: text/html
+Server: Apache/2.4.29 (Ubuntu)
+X-Powered-By: PHP/7.2.24
+X-XSS-Protection: 1; mode=block
+Strict-Transport-Security: max-age=3600
+Set-Cookie: PHPSESSID=8b1f0c2e7d; path=/
