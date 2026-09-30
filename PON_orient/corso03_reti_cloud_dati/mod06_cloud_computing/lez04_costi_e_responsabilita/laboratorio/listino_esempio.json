@@ -1,0 +1,16 @@
+{
+  "nota": "Listino inventato a scopo didattico: ordini di grandezza plausibili, non i prezzi di un fornitore reale.",
+  "ore_mese": 730,
+  "macchine_virtuali": {
+    "piccola": {"vcpu": 2, "ram_gb": 4, "euro_ora": 0.05},
+    "media": {"vcpu": 4, "ram_gb": 16, "euro_ora": 0.19},
+    "grande": {"vcpu": 16, "ram_gb": 64, "euro_ora": 0.76}
+  },
+  "sconto_impegno_1_anno": 0.35,
+  "disco_euro_gb_mese": 0.10,
+  "oggetti_euro_gb_mese": 0.023,
+  "richieste_oggetti_euro_1000": 0.005,
+  "traffico_uscita_euro_gb": 0.09,
+  "traffico_uscita_gratuito_gb": 100,
+  "database_gestito_euro_ora": 0.12
+}

@@ -1,0 +1,7 @@
+body { font-family: system-ui, sans-serif; max-width: 60rem; margin: 1rem auto; padding: 0 1rem; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border-bottom: 1px solid #ccc; padding: 0.3rem; text-align: left; }
+td.titolo { color: #0645ad; cursor: pointer; text-decoration: underline; }
+.nessuna { color: #b00020; }
+#esito.errore { color: #b00020; }
+#esito.ok { color: #1b5e20; }

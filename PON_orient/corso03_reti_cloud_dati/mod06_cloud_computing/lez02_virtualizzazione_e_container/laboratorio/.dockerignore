@@ -1,0 +1,6 @@
+# File da NON copiare nell'immagine durante la costruzione
+__pycache__/
+*.pyc
+test_*.py
+*.http
+.vscode/

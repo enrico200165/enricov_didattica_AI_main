@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Biblioteca della scuola</title>
+  <link rel="stylesheet" href="/static/stile.css">
+</head>
+<body>
+  <h1>Biblioteca della scuola</h1>
+
+  <section>
+    <h2>Catalogo</h2>
+    <form id="ricerca">
+      <input id="cerca" type="search" placeholder="Titolo o cognome dell'autore">
+      <select id="genere"><option value="">Tutti i generi</option></select>
+      <button type="submit">Cerca</button>
+    </form>
+    <p id="conteggio"></p>
+    <table>
+      <thead><tr><th>Titolo</th><th>Autore</th><th>Anno</th><th>Disponibili</th></tr></thead>
+      <tbody id="libri"></tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Copie</h2>
+    <p id="titolo-dettaglio">Fare clic su un titolo del catalogo.</p>
+    <ul id="copie"></ul>
+  </section>
+
+  <section>
+    <h2>Nuovo prestito</h2>
+    <form id="prestito">
+      <input id="collocazione" placeholder="Collocazione, per esempio A1-2" required>
+      <input id="studente" type="number" min="1" placeholder="Codice studente" required>
+      <button type="submit">Registra</button>
+    </form>
+    <p id="esito"></p>
+  </section>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

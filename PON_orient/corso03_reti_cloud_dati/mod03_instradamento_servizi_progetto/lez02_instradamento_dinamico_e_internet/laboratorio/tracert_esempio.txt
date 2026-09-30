@@ -1,0 +1,15 @@
+
+Traccia instradamento verso 203.0.113.80 su un massimo di 30 punti di passaggio
+
+  1    <1 ms    <1 ms     1 ms  192.168.1.1
+  2     6 ms     5 ms     6 ms  100.64.0.1
+  3     9 ms     8 ms     9 ms  198.51.100.1
+  4    11 ms    10 ms    11 ms  198.51.100.14
+  5     *        *        *     Richiesta scaduta.
+  6    24 ms    23 ms    25 ms  198.51.100.33
+  7   112 ms   111 ms   113 ms  203.0.113.1
+  8   118 ms   117 ms   119 ms  203.0.113.9
+  9   254 ms   253 ms   255 ms  203.0.113.65
+ 10   256 ms   255 ms   257 ms  203.0.113.80
+
+Traccia completata.

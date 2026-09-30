@@ -1,0 +1,19 @@
+
+Configurazione IP di Windows
+
+
+Scheda LAN wireless Wi-Fi:
+
+   Suffisso DNS specifico per connessione: home
+   Indirizzo IPv6 . . . . . . . . . . . . : 2001:db8:4a2c:1100:8d1f:3b2e:c5a0:1f27
+   Indirizzo IPv6 temporaneo. . . . . . . : 2001:db8:4a2c:1100:5c9e:a7:e21b:9d04
+   Indirizzo IPv6 locale rispetto al collegamento . : fe80::8d1f:3b2e:c5a0:1f27%11
+   Indirizzo IPv4. . . . . . . . . . . . : 192.168.1.20
+   Subnet mask . . . . . . . . . . . . . : 255.255.255.0
+   Gateway predefinito . . . . . . . . . : fe80::1%11
+                                           192.168.1.1
+
+Scheda Ethernet Ethernet:
+
+   Stato supporto. . . . . . . . . . . . : Supporto disconnesso
+   Suffisso DNS specifico per connessione:

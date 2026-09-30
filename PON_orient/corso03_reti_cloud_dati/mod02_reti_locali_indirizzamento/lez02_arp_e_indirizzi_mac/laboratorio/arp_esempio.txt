@@ -1,0 +1,11 @@
+
+Interfaccia: 192.168.1.20 --- 0xb
+  Indirizzo Internet    Indirizzo fisico      Tipo
+  192.168.1.1           3c-52-82-4e-10-20     dinamico
+  192.168.1.35          00-1b-21-3a-5c-01     dinamico
+  192.168.1.50          7a-2f-91-c4-08-e3     dinamico
+  192.168.1.255         ff-ff-ff-ff-ff-ff     statico
+  224.0.0.22            01-00-5e-00-00-16     statico
+  224.0.0.251           01-00-5e-00-00-fb     statico
+  239.255.255.250       01-00-5e-7f-ff-fa     statico
+  255.255.255.255       ff-ff-ff-ff-ff-ff     statico

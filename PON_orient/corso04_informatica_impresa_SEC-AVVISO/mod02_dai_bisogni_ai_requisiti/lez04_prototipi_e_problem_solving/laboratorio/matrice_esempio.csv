@@ -1,0 +1,7 @@
+criterio,peso,Comandi con argomenti,Menu interattivo
+Facile per chi lo usa di rado,5,2,5
+Rapido per chi lo usa spesso,3,5,2
+Facile da provare con i test automatici,4,5,3
+Tempo di sviluppo,4,5,2
+Coerente con il kit esistente,2,5,2
+Errori di battitura evitati,3,2,4

@@ -1,0 +1,30 @@
+{
+  "sito_biblioteca": {
+    "descrizione": "Servizio della biblioteca (modulo 5): una macchina piccola sempre accesa, database gestito, poco traffico",
+    "vm": [{"tipo": "piccola", "quantita": 1, "ore_mese": 730, "impegno_1_anno": false}],
+    "disco_gb": 30,
+    "database_ore_mese": 730,
+    "oggetti_gb": 5,
+    "richieste_oggetti_mese": 200000,
+    "traffico_uscita_gb": 20
+  },
+  "piattaforma_verifiche": {
+    "descrizione": "Verifiche online per tutta la scuola: 2 macchine medie sempre accese, 8 in più solo nelle 40 ore di picco al mese",
+    "vm": [{"tipo": "media", "quantita": 2, "ore_mese": 730, "impegno_1_anno": true},
+           {"tipo": "media", "quantita": 8, "ore_mese": 40, "impegno_1_anno": false}],
+    "disco_gb": 200,
+    "database_ore_mese": 730,
+    "oggetti_gb": 50,
+    "richieste_oggetti_mese": 3000000,
+    "traffico_uscita_gb": 400
+  },
+  "archivio_video": {
+    "descrizione": "Archivio delle lezioni registrate: molto spazio e molto traffico in uscita, calcolo minimo",
+    "vm": [{"tipo": "piccola", "quantita": 1, "ore_mese": 730, "impegno_1_anno": true}],
+    "disco_gb": 30,
+    "database_ore_mese": 0,
+    "oggetti_gb": 4000,
+    "richieste_oggetti_mese": 1000000,
+    "traffico_uscita_gb": 6000
+  }
+}

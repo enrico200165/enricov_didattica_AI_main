@@ -1,0 +1,54 @@
+# Lezione 5.3: richieste all'API della biblioteca con REST Client.
+# Prima avviare il servizio: python servizio_biblioteca.py
+
+@base = http://127.0.0.1:8000
+
+### 1. Elenco dei generi
+GET {{base}}/api/generi
+
+### 2. Tutti i libri, con copie totali e disponibili
+GET {{base}}/api/libri
+
+### 3. Ricerca per titolo o cognome dell'autore
+GET {{base}}/api/libri?cerca=calvino
+
+### 4. Filtro per genere
+GET {{base}}/api/libri?genere=fantascienza
+
+### 5. Un libro con le sue copie
+GET {{base}}/api/libri/19
+
+### 6. Libro inesistente: codice 404
+GET {{base}}/api/libri/999
+
+### 7. Nuovo prestito: codice 201 e dati del prestito creato
+POST {{base}}/api/prestiti
+Content-Type: application/json
+
+{
+  "collocazione": "D4-1",
+  "id_studente": 12
+}
+
+### 8. La stessa copia una seconda volta: codice 409
+POST {{base}}/api/prestiti
+Content-Type: application/json
+
+{
+  "collocazione": "D4-1",
+  "id_studente": 7
+}
+
+### 9. Richiesta incompleta: codice 400
+POST {{base}}/api/prestiti
+Content-Type: application/json
+
+{
+  "collocazione": "D4-2"
+}
+
+### 10. Restituzione (sostituire 201 con il numero restituito dalla richiesta 7)
+POST {{base}}/api/prestiti/201/restituzione
+Content-Type: application/json
+
+{}

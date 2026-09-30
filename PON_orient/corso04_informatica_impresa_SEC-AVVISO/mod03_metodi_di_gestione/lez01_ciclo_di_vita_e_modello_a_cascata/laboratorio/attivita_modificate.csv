@@ -1,0 +1,19 @@
+id,attivita,fase,durata,dipende_da
+R1,Interviste e analisi dei requisiti,Requisiti,5,
+R2,Documento dei requisiti approvato,Requisiti,0,R1
+P1,Progettazione dei dati e dell'archivio,Progettazione,3,R2
+P2,Progettazione dei comandi,Progettazione,3,R2
+P3,Documento di progetto approvato,Progettazione,0,P1 P2
+S1,Sviluppo archivio,Sviluppo,4,P3
+S2,Sviluppo regole e controlli,Sviluppo,8,P3
+S3,Sviluppo comandi,Sviluppo,5,P3
+S4,Manuale utente,Sviluppo,3,P3
+T1,Test di integrazione,Verifica,4,S1 S2 S3
+T2,Collaudo con il cliente,Verifica,3,T1 S4
+M1,Analisi della richiesta: ore di lezione,Modifica,2,T2
+M2,Revisione dei documenti di requisiti e progetto,Modifica,2,M1
+M3,Modifica di regole e comandi,Modifica,5,M2
+M4,Aggiornamento del manuale,Modifica,1,M2
+M5,Nuovo test e collaudo,Modifica,4,M3 M4
+L1,Installazione e formazione,Rilascio,2,M5
+L2,Consegna,Rilascio,0,L1

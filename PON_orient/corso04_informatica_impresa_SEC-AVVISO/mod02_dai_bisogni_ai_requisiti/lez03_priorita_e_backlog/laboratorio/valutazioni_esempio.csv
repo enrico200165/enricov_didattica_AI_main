@@ -1,0 +1,16 @@
+id,titolo,moscow,valore,sforzo
+US-01,Nessuna prenotazione sovrapposta,M,5,2
+US-02,Prenotazioni di un giorno,M,5,2
+US-03,Cancellare una prenotazione,M,4,2
+US-04,Le mie prenotazioni,S,3,2
+US-05,Aule libere in una fascia oraria,S,4,3
+US-06,Niente prenotazioni nel passato o nei giorni di chiusura,S,3,3
+US-07,Spostare una prenotazione,C,2,3
+US-08,Riepilogo settimanale di un'aula,S,3,2
+US-09,Esportazione in CSV,C,3,2
+US-10,Numero di studenti e capienza,S,4,2
+US-11,Prenotazioni ricorrenti,C,4,5
+US-12,Aula fuori servizio,C,3,3
+US-13,Ruoli: docente e tecnico,W,2,4
+US-14,Messaggi e aiuto in italiano,C,2,2
+US-15,Statistiche di utilizzo delle aule,C,3,3

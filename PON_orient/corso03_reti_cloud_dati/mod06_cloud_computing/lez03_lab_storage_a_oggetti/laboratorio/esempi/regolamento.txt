@@ -1,0 +1,5 @@
+Regolamento della biblioteca scolastica (testo di esempio)
+
+1. Il prestito dura 30 giorni e si può rinnovare una volta.
+2. Ogni studente può avere in prestito al massimo tre libri.
+3. I libri smarriti o danneggiati vanno sostituiti.

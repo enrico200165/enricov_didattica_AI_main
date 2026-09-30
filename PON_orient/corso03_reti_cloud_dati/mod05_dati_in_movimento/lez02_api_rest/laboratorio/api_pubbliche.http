@@ -1,0 +1,23 @@
+# Lezione 5.2: richieste a due API pubbliche, senza chiave e senza registrazione.
+# Con l'estensione REST Client, fare clic su "Send Request" sopra ogni richiesta.
+# Uso moderato: sono servizi gratuiti, condivisi con tutti.
+
+@openlibrary = https://openlibrary.org
+@meteo = https://api.open-meteo.com
+
+### 1. Ricerca di libri per titolo (Open Library)
+GET {{openlibrary}}/search.json?q=il+barone+rampante&fields=title,author_name,first_publish_year&limit=5
+User-Agent: CorsoRetiScuola/1.0 (esercitazione didattica)
+
+### 2. Ricerca per autore, solo alcuni campi
+GET {{openlibrary}}/search.json?author=calvino&fields=title,first_publish_year&limit=10
+User-Agent: CorsoRetiScuola/1.0 (esercitazione didattica)
+
+### 3. Meteo attuale a Roma (Open-Meteo): latitudine e longitudine, variabili richieste
+GET {{meteo}}/v1/forecast?latitude=41.89&longitude=12.49&current=temperature_2m,wind_speed_10m&timezone=Europe/Rome
+
+### 4. Previsione oraria della temperatura per le prossime 24 ore
+GET {{meteo}}/v1/forecast?latitude=41.89&longitude=12.49&hourly=temperature_2m&forecast_days=1&timezone=Europe/Rome
+
+### 5. Richiesta con un parametro non valido: quale codice di stato? Che cosa contiene la risposta?
+GET {{meteo}}/v1/forecast?latitude=200&longitude=12.49&current=temperature_2m

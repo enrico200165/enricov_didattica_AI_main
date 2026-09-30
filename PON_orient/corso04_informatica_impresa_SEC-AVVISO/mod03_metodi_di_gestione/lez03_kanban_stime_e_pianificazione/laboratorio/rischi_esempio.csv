@@ -1,0 +1,7 @@
+id,rischio,probabilita,impatto,strategia,azione,responsabile
+R01,Un membro del team è assente a una lezione di sviluppo e il suo lavoro si ferma,4,3,ridurre,Board sempre aggiornata; ogni compito ha qualcuno che sa riprenderlo,Scrum Master
+R02,Due membri modificano lo stesso file e si perdono modifiche,4,4,ridurre,Git con un ramo per storia dal modulo 4; integrazione frequente,Sviluppatori
+R03,Il cliente cambia una richiesta durante lo sprint 2,3,3,accettare,Si discute nella pianificazione dello sprint 2,Product Owner
+R04,La copia di riferimento del progetto va persa (chiavetta smarrita),2,5,ridurre,Copia di sicurezza settimanale sul PC del docente,
+R05,Una storia si rivela molto più lunga della stima,4,4,accettare,,Product Owner
+R06,I PC del laboratorio non hanno Python aggiornato,1,4,evitare,Verifica con verifica_ambiente.py nella lezione 1.3,Docente

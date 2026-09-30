@@ -1,0 +1,43 @@
+# Richieste per l'estensione REST Client di VS Code.
+# Avviare prima il server: python server_didattico.py
+# Fare clic su "Send Request" sopra ogni richiesta; le richieste sono separate da ###
+
+@base = http://127.0.0.1:8000
+
+### 1. Pagina HTML
+GET {{base}}/
+
+### 2. Parametro nell'indirizzo
+GET {{base}}/saluto?nome=Giulia
+
+### 3. Dati JSON
+GET {{base}}/api/ora
+
+### 4. Solo le intestazioni, senza corpo
+HEAD {{base}}/
+
+### 5. Invio di dati JSON
+POST {{base}}/api/messaggi
+Content-Type: application/json
+
+{
+  "testo": "Laboratorio di reti alle 10"
+}
+
+### 6. Elenco dei messaggi ricevuti
+GET {{base}}/api/messaggi
+
+### 7. Dati non validi: codice 400
+POST {{base}}/api/messaggi
+Content-Type: application/json
+
+{ "titolo": "manca il campo testo" }
+
+### 8. Reindirizzamento permanente
+GET {{base}}/vecchia-pagina
+
+### 9. Cookie: ripetere più volte la richiesta
+GET {{base}}/contatore
+
+### 10. Pagina inesistente
+GET {{base}}/nulla

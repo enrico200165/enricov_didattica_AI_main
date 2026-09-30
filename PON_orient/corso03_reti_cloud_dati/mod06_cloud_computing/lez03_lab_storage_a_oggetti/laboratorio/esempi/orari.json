@@ -1,0 +1,8 @@
+{
+  "biblioteca": "Biblioteca della scuola",
+  "orari": [
+    {"giorno": "lunedì", "apertura": "08:30", "chiusura": "13:30"},
+    {"giorno": "mercoledì", "apertura": "08:30", "chiusura": "16:00"},
+    {"giorno": "venerdì", "apertura": "08:30", "chiusura": "13:30"}
+  ]
+}

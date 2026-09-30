@@ -1,0 +1,10 @@
+# File generati da Python
+__pycache__/
+*.pyc
+
+# File temporanei dell'archivio
+dati/*.tmp
+
+# Ambienti virtuali e impostazioni personali dell'editor
+.venv/
+.vscode/

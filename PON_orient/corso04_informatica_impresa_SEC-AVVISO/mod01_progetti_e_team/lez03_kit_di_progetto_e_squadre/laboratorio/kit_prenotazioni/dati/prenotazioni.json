@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "aula": "LAB-INF1",
+    "giorno": "2026-10-12",
+    "inizio": "09:00",
+    "fine": "11:00",
+    "richiedente": "M. Bianchi",
+    "motivo": "Esercitazione 3A"
+  },
+  {
+    "id": 2,
+    "aula": "LAB-CHI",
+    "giorno": "2026-10-12",
+    "inizio": "10:00",
+    "fine": "12:00",
+    "richiedente": "L. Verdi",
+    "motivo": "Titolazioni 4B"
+  },
+  {
+    "id": 3,
+    "aula": "AULA-MAG",
+    "giorno": "2026-10-14",
+    "inizio": "11:00",
+    "fine": "13:00",
+    "richiedente": "S. Russo",
+    "motivo": "Assemblea di istituto"
+  },
+  {
+    "id": 4,
+    "aula": "AULA-MAG",
+    "giorno": "2026-10-14",
+    "inizio": "12:00",
+    "fine": "13:00",
+    "richiedente": "A. Neri",
+    "motivo": "Prova impianto audio"
+  },
+  {
+    "id": 5,
+    "aula": "LAB-INF2",
+    "giorno": "2026-10-15",
+    "inizio": "08:00",
+    "fine": "10:00",
+    "richiedente": "M. Bianchi",
+    "motivo": "Verifica 3A"
+  }
+]

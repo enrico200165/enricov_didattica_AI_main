@@ -1,0 +1,50 @@
+[
+  {
+    "codice": "AULA-MAG",
+    "nome": "Aula magna",
+    "tipo": "aula",
+    "posti": 150
+  },
+  {
+    "codice": "BIB",
+    "nome": "Biblioteca",
+    "tipo": "aula",
+    "posti": 40
+  },
+  {
+    "codice": "LAB-CHI",
+    "nome": "Laboratorio di chimica",
+    "tipo": "laboratorio",
+    "posti": 24
+  },
+  {
+    "codice": "LAB-FIS",
+    "nome": "Laboratorio di fisica",
+    "tipo": "laboratorio",
+    "posti": 24
+  },
+  {
+    "codice": "LAB-INF1",
+    "nome": "Laboratorio di informatica 1",
+    "tipo": "laboratorio",
+    "posti": 28
+  },
+  {
+    "codice": "LAB-INF2",
+    "nome": "Laboratorio di informatica 2",
+    "tipo": "laboratorio",
+    "posti": 24
+  },
+  {
+    "codice": "LAB-LNG",
+    "nome": "Laboratorio linguistico",
+    "tipo": "laboratorio",
+    "posti": 30
+  },
+  {
+    "codice": "PAL",
+    "nome": "Palestra",
+    "tipo": "palestra",
+    "posti": 60
+  }
+]
