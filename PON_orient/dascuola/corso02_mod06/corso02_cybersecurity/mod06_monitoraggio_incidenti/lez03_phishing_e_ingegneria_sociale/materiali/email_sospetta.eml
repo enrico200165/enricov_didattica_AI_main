@@ -1,0 +1,38 @@
+Return-Path: <bounce-4471@mailer.invii-massivi.example>
+Received: from mx.scuola.example (mx.scuola.example [192.0.2.25])
+	by caselle.scuola.example with LMTP; Tue, 06 Oct 2026 07:42:19 +0200
+Received: from mailer.invii-massivi.example (unknown [203.0.113.77])
+	by mx.scuola.example with ESMTP id 4F2A91C0; Tue, 06 Oct 2026 07:42:18 +0200
+Authentication-Results: mx.scuola.example;
+	spf=fail smtp.mailfrom=invii-massivi.example;
+	dkim=none;
+	dmarc=fail header.from=scuola-segreteria.example
+From: "Segreteria Scuola" <avvisi@scuola-segreteria.example>
+Reply-To: assistenza.caselle@posta-gratuita.example
+To: studente.prova@scuola.example
+Subject: URGENTE: casella di posta piena, account in sospensione
+Date: Tue, 06 Oct 2026 07:41:55 +0200
+Message-ID: <20261006054155.4471@mailer.invii-massivi.example>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="confine01"
+
+--confine01
+Content-Type: text/plain; charset="utf-8"
+
+Gentile utente, la sua casella ha superato il limite di spazio.
+Entro 24 ore l'account sara' sospeso e i messaggi cancellati.
+Per evitarlo confermi le sue credenziali: Accedi al portale della scuola.
+[ESEMPIO DIDATTICO, LEZIONE 6.3]
+
+--confine01
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Gentile utente, la sua casella ha superato il limite di spazio.</p>
+<p>Entro <b>24 ore</b> l'account sar&agrave; sospeso e i messaggi cancellati.</p>
+<p>Per evitarlo confermi le sue credenziali:
+<a href="https://scuola.example.verifica-account.example/login">https://www.scuola.example/posta</a></p>
+<p><i>Esempio didattico, lezione 6.3</i></p>
+</body></html>
+
+--confine01--

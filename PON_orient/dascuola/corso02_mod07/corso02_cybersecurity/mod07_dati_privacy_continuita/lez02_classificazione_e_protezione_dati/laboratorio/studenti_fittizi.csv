@@ -1,0 +1,41 @@
+matricola,cognome,nome,email,data_nascita,comune,classe,media_informatica,assenze
+S2026001,Bianchi,Riccardo,riccardo.bianchi1@studenti.scuola.example,2008-01-03,Bologna,4B,8.0,18
+S2026002,Giordano,Giulia,giulia.giordano2@studenti.scuola.example,2009-02-14,Zola Predosa,4A,6.0,7
+S2026003,Rizzo,Francesco,francesco.rizzo3@studenti.scuola.example,2009-10-04,Casalecchio di Reno,4B,5.5,18
+S2026004,Conti,Andrea,andrea.conti4@studenti.scuola.example,2009-01-18,Casalecchio di Reno,4A,7.5,13
+S2026005,Rizzo,Lorenzo,lorenzo.rizzo5@studenti.scuola.example,2010-05-18,Casalecchio di Reno,4A,6.0,18
+S2026006,Colombo,Andrea,andrea.colombo6@studenti.scuola.example,2009-09-23,Bologna,4B,5.5,19
+S2026007,Costa,Mattia,mattia.costa7@studenti.scuola.example,2009-08-19,Zola Predosa,4B,8.0,9
+S2026008,Romano,Alice,alice.romano8@studenti.scuola.example,2009-10-10,Zola Predosa,4A,8.0,23
+S2026009,Greco,Edoardo,edoardo.greco9@studenti.scuola.example,2009-09-14,Casalecchio di Reno,4A,8.0,4
+S2026010,De Luca,Beatrice,beatrice.deluca10@studenti.scuola.example,2008-02-25,San Lazzaro di Savena,4A,8.0,22
+S2026011,Moretti,Emma,emma.moretti11@studenti.scuola.example,2010-08-03,Bologna,4B,7.5,15
+S2026012,Ferrari,Pietro,pietro.ferrari12@studenti.scuola.example,2008-12-10,Zola Predosa,4A,7.5,22
+S2026013,Gallo,Tommaso,tommaso.gallo13@studenti.scuola.example,2010-06-06,Bologna,4A,9.0,1
+S2026014,Greco,Mattia,mattia.greco14@studenti.scuola.example,2008-04-13,Zola Predosa,4A,9.0,2
+S2026015,Mancini,Aurora,aurora.mancini15@studenti.scuola.example,2010-05-05,Zola Predosa,4B,9.5,8
+S2026016,De Luca,Pietro,pietro.deluca16@studenti.scuola.example,2008-07-08,Casalecchio di Reno,4B,6.0,5
+S2026017,Ricci,Lorenzo,lorenzo.ricci17@studenti.scuola.example,2009-08-27,Casalecchio di Reno,4A,7.5,9
+S2026018,Bianchi,Alessandro,alessandro.bianchi18@studenti.scuola.example,2010-06-20,San Lazzaro di Savena,4B,6.5,22
+S2026019,Moretti,Gabriele,gabriele.moretti19@studenti.scuola.example,2010-11-26,Zola Predosa,4A,8.5,12
+S2026020,Esposito,Tommaso,tommaso.esposito20@studenti.scuola.example,2008-07-02,Casalecchio di Reno,4B,6.0,6
+S2026021,Romano,Edoardo,edoardo.romano21@studenti.scuola.example,2009-10-02,Bologna,4A,5.5,18
+S2026022,Rizzo,Lorenzo,lorenzo.rizzo22@studenti.scuola.example,2009-10-01,Bologna,4A,7.0,19
+S2026023,Bianchi,Tommaso,tommaso.bianchi23@studenti.scuola.example,2009-10-12,Zola Predosa,4B,6.0,3
+S2026024,Mancini,Beatrice,beatrice.mancini24@studenti.scuola.example,2010-05-03,Casalecchio di Reno,4B,6.0,23
+S2026025,Marino,Riccardo,riccardo.marino25@studenti.scuola.example,2008-03-17,Bologna,4B,7.0,30
+S2026026,Gallo,Gabriele,gabriele.gallo26@studenti.scuola.example,2008-09-01,San Lazzaro di Savena,4A,6.0,22
+S2026027,Giordano,Leonardo,leonardo.giordano27@studenti.scuola.example,2009-06-25,Casalecchio di Reno,4B,9.5,17
+S2026028,Bruno,Gabriele,gabriele.bruno28@studenti.scuola.example,2010-04-26,Casalecchio di Reno,4A,8.5,23
+S2026029,Colombo,Alice,alice.colombo29@studenti.scuola.example,2009-12-01,Bologna,4B,7.5,15
+S2026030,Colombo,Leonardo,leonardo.colombo30@studenti.scuola.example,2010-12-12,San Lazzaro di Savena,4B,6.0,7
+S2026031,Ricci,Sofia,sofia.ricci31@studenti.scuola.example,2009-06-07,Zola Predosa,4B,5.5,15
+S2026032,Gallo,Marco,marco.gallo32@studenti.scuola.example,2008-02-13,Casalecchio di Reno,4A,9.0,28
+S2026033,De Luca,Aurora,aurora.deluca33@studenti.scuola.example,2009-12-13,Zola Predosa,4B,8.5,23
+S2026034,Romano,Francesco,francesco.romano34@studenti.scuola.example,2009-01-05,Zola Predosa,4A,6.5,19
+S2026035,Costa,Vittoria,vittoria.costa35@studenti.scuola.example,2009-09-18,Casalecchio di Reno,4B,5.5,0
+S2026036,Esposito,Martina,martina.esposito36@studenti.scuola.example,2010-04-27,Casalecchio di Reno,4A,5.5,8
+S2026037,Greco,Mattia,mattia.greco37@studenti.scuola.example,2010-06-09,Zola Predosa,4A,6.5,1
+S2026038,Gallo,Martina,martina.gallo38@studenti.scuola.example,2008-10-27,Castel Maggiore,4B,9.5,13
+S2026039,Bianchi,Gabriele,gabriele.bianchi39@studenti.scuola.example,2010-09-01,Pianoro,4A,9.0,24
+S2026040,Moretti,Aurora,aurora.moretti40@studenti.scuola.example,2009-03-05,Castel Maggiore,4A,9.0,19

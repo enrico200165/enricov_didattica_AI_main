@@ -1,0 +1,20 @@
+Return-Path: <notifiche@scuola.example>
+Received: from piattaforma.scuola.example (piattaforma.scuola.example [192.0.2.40])
+	by mx.scuola.example with ESMTPS id 7B11E0A2; Wed, 07 Oct 2026 14:05:02 +0200
+Authentication-Results: mx.scuola.example;
+	spf=pass smtp.mailfrom=scuola.example;
+	dkim=pass header.d=scuola.example;
+	dmarc=pass header.from=scuola.example
+From: "Piattaforma didattica" <notifiche@scuola.example>
+To: studente.prova@scuola.example
+Subject: Nuovo compito assegnato: Informatica, esercitazione 6.3
+Date: Wed, 07 Oct 2026 14:05:00 +0200
+Message-ID: <compito-8812@piattaforma.scuola.example>
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>E' stato assegnato un nuovo compito nel corso "Informatica 4A". Scadenza: 14 ottobre.</p>
+<p>Per vederlo: <a href="https://piattaforma.scuola.example/corsi/informatica-4a">piattaforma.scuola.example</a></p>
+<p><i>Esempio didattico, lezione 6.3</i></p>
+</body></html>
