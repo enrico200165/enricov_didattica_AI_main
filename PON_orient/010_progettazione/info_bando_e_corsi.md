@@ -1,5 +1,13 @@
 # Descrizione famiglia di corsi, caratteristiche comuni  
 
+## Bando e famiglia di corsi  
+
+Futuro onlife: percorsi di orientamento tra scuola, territorio e impresa
+IDENTIFICATIVO DI PROGETTO: 10.1.6A-FDRPOC-LA-2024-68
+CUP: J84D25001250001
+
+## Descrizione  
+
 I corsi sono esperienze di apprendimento finalizzate all'orientamento. Il bando del ministero li descrive come "Percorsi di orientamento rivolti alle classi terze, quarte e quinte delle istituzioni scolastiche secondarie di secondo grado con il coordinamento del docente tutor".
 
 Nei corsi inserisci sempre aspetti pratici e spiegazioni complete; nel codice inserisci commenti esplicativi.
