@@ -1,0 +1,98 @@
+{
+  "attivita": {
+    "intervistare": "intervistare il cliente e capire le sue esigenze",
+    "scrivere_storie": "scrivere storie utente e criteri di accettazione",
+    "decidere_priorita": "decidere le priorità del backlog con il cliente",
+    "facilitare": "condurre daily e retrospettive, aiutare il team a superare gli ostacoli",
+    "pianificare": "stimare, pianificare, tenere sotto controllo tempi e rischi",
+    "programmare": "scrivere codice Python",
+    "testare": "scrivere test e cercare i casi limite",
+    "correggere": "trovare e correggere difetti con il debugger",
+    "usabilita": "pensare a comandi e messaggi dal punto di vista di chi usa il programma",
+    "rilasciare": "gestire Git, versioni e pacchetto di rilascio",
+    "documentare": "scrivere manuale, README e documentazione",
+    "presentare": "presentare il prodotto e rispondere alle domande"
+  },
+  "professioni": [
+    {
+      "nome": "Sviluppatore software",
+      "ruolo_nel_progetto": "sviluppatore",
+      "profilo_europeo": "Developer",
+      "cerca_in_esco": "sviluppatore software",
+      "attivita": ["programmare", "correggere", "testare"],
+      "competenze_tecniche": "linguaggi di programmazione, Git, test automatici, basi di dati",
+      "competenze_trasversali": "problem solving, concentrazione, lavoro in team",
+      "percorsi": "ITS Academy area ICT; laurea in Informatica o Ingegneria informatica; apprendistato"
+    },
+    {
+      "nome": "Specialista del test (tester)",
+      "ruolo_nel_progetto": "sviluppatore che scrive i test",
+      "profilo_europeo": "Test Specialist",
+      "cerca_in_esco": "tester",
+      "attivita": ["testare", "correggere", "documentare"],
+      "competenze_tecniche": "tecniche e strumenti di test, automazione dei test, segnalazione dei difetti",
+      "competenze_trasversali": "precisione, spirito critico, comunicazione scritta",
+      "percorsi": "ITS Academy area ICT; laurea in Informatica; certificazioni sul test del software"
+    },
+    {
+      "nome": "Analista funzionale (business analyst)",
+      "ruolo_nel_progetto": "chi ha condotto l'intervista e scritto le storie",
+      "profilo_europeo": "Business Analyst",
+      "cerca_in_esco": "analista",
+      "attivita": ["intervistare", "scrivere_storie", "documentare"],
+      "competenze_tecniche": "analisi dei requisiti, modellazione dei processi, conoscenza del settore del cliente",
+      "competenze_trasversali": "ascolto, comunicazione, capacità di sintesi",
+      "percorsi": "laurea in Informatica, Ingegneria gestionale o Economia; spesso dopo esperienza come sviluppatore"
+    },
+    {
+      "nome": "Product Owner",
+      "ruolo_nel_progetto": "Product Owner",
+      "profilo_europeo": "Product Owner",
+      "cerca_in_esco": "product owner",
+      "attivita": ["decidere_priorita", "scrivere_storie", "intervistare", "presentare"],
+      "competenze_tecniche": "gestione del backlog, analisi del valore, conoscenza del prodotto e del mercato",
+      "competenze_trasversali": "decisione, negoziazione, comunicazione con il cliente",
+      "percorsi": "laurea in ambito informatico, gestionale o economico; in genere dopo esperienza nel settore"
+    },
+    {
+      "nome": "Scrum Master",
+      "ruolo_nel_progetto": "Scrum Master",
+      "profilo_europeo": "Scrum Master",
+      "cerca_in_esco": "scrum master",
+      "attivita": ["facilitare", "pianificare", "presentare"],
+      "competenze_tecniche": "Scrum e metodi agili, metriche di processo",
+      "competenze_trasversali": "facilitazione, gestione dei conflitti, ascolto",
+      "percorsi": "esperienza in team di sviluppo; certificazioni sui metodi agili"
+    },
+    {
+      "nome": "Project manager ICT",
+      "ruolo_nel_progetto": "chi ha curato piano, stime e rischi",
+      "profilo_europeo": "Project Manager",
+      "cerca_in_esco": "project manager ICT",
+      "attivita": ["pianificare", "presentare", "decidere_priorita"],
+      "competenze_tecniche": "pianificazione, stime, gestione dei rischi e dei costi, contratti",
+      "competenze_trasversali": "leadership, organizzazione, comunicazione",
+      "percorsi": "laurea in Ingegneria gestionale o informatica; in genere dopo esperienza tecnica; certificazioni di project management"
+    },
+    {
+      "nome": "UX designer",
+      "ruolo_nel_progetto": "chi ha curato comandi, messaggi e manuale",
+      "profilo_europeo": "nessun profilo dedicato; il più vicino è Digital Media Specialist",
+      "cerca_in_esco": "user experience",
+      "attivita": ["usabilita", "intervistare", "documentare"],
+      "competenze_tecniche": "ricerca con gli utenti, prototipi, test di usabilità, accessibilità",
+      "competenze_trasversali": "empatia, creatività, comunicazione visiva",
+      "percorsi": "ITS Academy area ICT; lauree in design della comunicazione, informatica o psicologia con indirizzo sull'interazione"
+    },
+    {
+      "nome": "DevOps engineer",
+      "ruolo_nel_progetto": "chi ha curato Git, integrazione e rilascio",
+      "profilo_europeo": "DevOps Expert",
+      "cerca_in_esco": "DevOps",
+      "attivita": ["rilasciare", "programmare", "testare"],
+      "competenze_tecniche": "Git, automazione, integrazione continua, cloud, sistemi operativi",
+      "competenze_trasversali": "affidabilità, problem solving, collaborazione tra team",
+      "percorsi": "ITS Academy area ICT; laurea in Informatica o Ingegneria informatica; certificazioni cloud"
+    }
+  ]
+}
