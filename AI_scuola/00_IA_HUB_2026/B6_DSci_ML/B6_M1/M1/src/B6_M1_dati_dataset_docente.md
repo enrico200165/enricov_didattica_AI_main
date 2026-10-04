@@ -14,37 +14,51 @@ Il modulo 1 costruisce il vocabolario e gli strumenti che servono in tutto il co
 - L2 tratta la raccolta dei dati e avvia la raccolta del dataset della classe, che tornerà in L3, L5, L6, L12 e nel progetto finale
 - L3 introduce notebook e pandas, gli strumenti di lavoro dei moduli successivi
 
-Segmento di traccia docenti in aula: 10-15 minuti al termine di L3, sugli strumenti (notebook, JupyterLite, WinPython, Colab, Kaggle) e sulla gestione dei file nel laboratorio.
+### Segmento di traccia docenti in aula  
+
+10-15 minuti al termine di L3, sugli strumenti (notebook, JupyterLite, WinPython, Colab, Kaggle) e sulla gestione dei file nel laboratorio.
 
 ## Logica della progettazione
 
 ### L1: il foglio di calcolo prima del codice
 
-La prima lezione non usa Python. Gli studenti conoscono già il foglio di calcolo; aprire un CSV in LibreOffice Calc permette di vedere il dataset "intero", scorrere, filtrare, ordinare, senza la barriera del codice. Il passaggio a pandas in L3 viene poi motivato da ciò che il foglio di calcolo fa con fatica: operazioni ripetibili, documentate, su dati più grandi.
+La prima lezione non usa Python. 
+Gli studenti conoscono già il foglio di calcolo; aprire un CSV in LibreOffice Calc permette di vedere il dataset "intero", scorrere, filtrare, ordinare, senza **la barriera del codice**.  
+Il passaggio a pandas in L3 viene poi motivato da ciò che il foglio di calcolo fa con fatica: operazioni ripetibili, documentate, su dati più grandi.
 
 Il problema della lingua nell'importazione (punto decimale letto come testo o data con impostazioni italiane) non è un dettaglio tecnico da evitare: è il primo esempio concreto di problema di qualità legato al formato, e anticipa L5.
 
 ### L1: perché i pinguini
 
-Palmer Penguins è stato proposto come alternativa al dataset Iris, storicamente legato alla rivista di eugenetica in cui fu pubblicato. Rispetto a Iris ha variabili di tipi diversi (quantitative, nominali, una discreta), valori mancanti reali, classi di dimensione diversa, e un contesto comprensibile a tutti. Le specie si separano bene con due variabili ma non con una sola: è la difficoltà giusta per i classificatori del modulo 3.
+Palmer Penguins è stato proposto come alternativa al dataset Iris, storicamente legato alla rivista di eugenetica in cui fu pubblicato.  
+Rispetto a Iris ha variabili di tipi diversi (quantitative, nominali, una discreta), valori mancanti reali, classi di dimensione diversa, e un contesto comprensibile a tutti.  
+Le specie si separano bene con due variabili ma non con una sola: è la difficoltà giusta per i classificatori del modulo 3.
 
-La licenza CC0 permette di distribuire il file, tradurne le colonne e modificarlo senza vincoli. La citazione della fonte è comunque indicata in ogni materiale, come buona pratica scientifica.
+La licenza CC0 permette di distribuire il file, tradurne le colonne e modificarlo senza vincoli.  
+La citazione della fonte è comunque indicata in ogni materiale, come buona pratica scientifica.
 
 ### L2: raccogliere dati propri
 
-Raccogliere un dataset è esplicitamente nella descrizione del corso. La raccolta in classe ha tre funzioni:
+Raccogliere un dataset è esplicitamente nella descrizione del corso.  
+
+La raccolta in classe ha tre funzioni:
 
 - mostra che le scelte di progettazione (domande, unità, opzioni) determinano la qualità dei dati
 - produce dati imperfetti, che rendono concreta la pulizia di L5
 - dà agli studenti un dataset "loro", più motivante di qualunque dataset preconfezionato
 
-Il tema dei tragitti è stato scelto dopo averne scartati altri frequenti nei corsi (ore di sonno, uso dei social, voti): sono dati personali delicati, e in una classe di 25 studenti l'anonimato non è garantito. I tragitti non sono dati sensibili, contengono una relazione quantitativa prevedibile (distanza e tempo) e una variabile qualitativa da prevedere (mezzo).
+Il tema dei tragitti è stato scelto dopo averne scartati altri frequenti nei corsi (ore di sonno, uso dei social, voti):  
+sono dati personali delicati, e in una classe di 25 studenti l'anonimato non è garantito.  
+I tragitti non sono dati sensibili, contengono una relazione quantitativa prevedibile (distanza e tempo) e una variabile qualitativa da prevedere (mezzo).
 
-Il file `tragitti_esempio.csv` (153 risposte simulate) sostituisce o integra i dati della classe: 25 risposte sono poche per addestrare un modello; si possono unire le risposte di più classi o affiancare i dati di esempio.
+Il file `tragitti_esempio.csv` (153 risposte simulate) sostituisce o integra i dati della classe:  
+**25 risposte sono poche per addestrare un modello**; si possono unire le risposte di più classi o affiancare i dati di esempio.
 
 ### L3: pandas senza un corso di Python
 
-Gli studenti non devono imparare Python, ma leggere e modificare codice Python. La lezione introduce solo sei concetti (istruzione, commento, variabile, funzione, metodo, import) e le operazioni di pandas usate davvero nel corso. Ogni riga di codice mostrata viene spiegata, come richiesto per tutti i materiali.
+Gli studenti non devono imparare Python, ma **leggere e modificare** codice Python.  
+La lezione introduce solo sei concetti (istruzione, commento, variabile, funzione, metodo, import) e le operazioni di pandas usate davvero nel corso.  
+Ogni riga di codice mostrata viene spiegata.
 
 Il notebook segue uno schema che si ripete in tutto il corso:
 
@@ -72,11 +86,14 @@ Il notebook segue uno schema che si ripete in tutto il corso:
 
 Opzioni, in ordine di semplicità:
 
-1. modulo online dell'account della scuola (Google Moduli o Microsoft Forms): esportazione diretta in CSV; impostare domande a scelta per anno, mezzo e fascia; campi numerici con indicazione dell'unità. Disattivare la raccolta degli indirizzi email
-2. foglio di calcolo condiviso in cui ogni studente compila una riga: più rapido, ma ogni studente vede le risposte degli altri mentre scrive
+1. modulo online dell'account della scuola (Google Moduli o Microsoft Forms):  
+esportazione diretta in CSV; impostare domande a scelta per anno, mezzo e fascia; campi numerici con indicazione dell'unità.  
+Disattivare la raccolta degli indirizzi email
+2. foglio di calcolo condiviso in cui ogni studente compila una riga: più rapido, **ma ogni studente vede le risposte degli altri** mentre scrive
 3. scheda cartacea trascritta da due studenti a turno: più lenta, ma produce errori di trascrizione utili per L5
 
-Per mantenere l'utilità didattica della pulizia, non è necessario rendere il modulo "perfetto": una domanda numerica a testo libero per il tempo produrrà varianti (`20`, `20 min`, `mezz'ora`) che L5 insegnerà a gestire. Il docente può scegliere consapevolmente quanti vincoli mettere.
+Per mantenere l'utilità didattica della pulizia, non è necessario rendere il modulo "perfetto": una domanda numerica a testo libero per il tempo produrrà varianti (`20`, `20 min`, `mezz'ora`) che L5 insegnerà a gestire.  
+Il docente può scegliere consapevolmente quanti vincoli mettere.
 
 Il CSV esportato dal modulo online contiene di solito una colonna con data e ora di invio e intestazioni uguali al testo delle domande: rinominarle con i nomi del dizionario dei dati è il primo esercizio di L5.
 
@@ -116,14 +133,16 @@ Il CSV esportato dal modulo online contiene di solito una colonna con data e ora
 La scelta tra JupyterLite, WinPython e Colab va fatta prima del corso, in base al laboratorio:
 
 - rete affidabile e browser recenti: JupyterLite come ambiente principale
-- rete assente o instabile: WinPython su chiavetta o copiato sulle postazioni (versione "slim", che contiene pandas e scikit-learn; la versione minima "dot" non basta)
-- istituto con Google Workspace for Education e Colab abilitato dall'amministratore: Colab per il lavoro a casa e la condivisione, non come unico ambiente
+- rete assente o instabile:  
+WinPython su chiavetta o copiato sulle postazioni (versione "slim", che contiene pandas e scikit-learn; la versione minima "dot" non basta)
+- istituto con Google Workspace for Education **e Colab abilitato dall'amministratore**: Colab per il lavoro a casa e la condivisione, non come unico ambiente
 
 Il segmento di traccia docenti di L3 riprende la sezione "Gli strumenti del laboratorio: analisi per il docente" del syllabus docente (notebook, JupyterLite, WinPython, Colab, Kaggle) e la applica al laboratorio della propria scuola.
 
 ### Gestione dei file
 
-Il punto debole di JupyterLite in classe è la gestione dei file: restano nel browser della postazione. Soluzioni praticabili:
+Il punto debole di JupyterLite in classe è la gestione dei file: restano nel browser della postazione.  
+Soluzioni praticabili:
 
 - ogni studente scarica il notebook a fine lezione e lo carica sulla piattaforma della classe
 - se le postazioni sono assegnate stabilmente, i file restano nel browser tra una lezione e l'altra (salvo pulizia della cache)
@@ -131,7 +150,8 @@ Il punto debole di JupyterLite in classe è la gestione dei file: restano nel br
 
 ### Kaggle come risorsa del docente
 
-Per questo modulo Kaggle è utile soprattutto al docente: la sezione Datasets permette di trovare dataset alternativi ai pinguini per le verifiche di modulo (cercare dataset piccoli, con licenza CC0 o CC BY, con descrizione delle variabili). Il micro-corso Pandas di Kaggle Learn è un approfondimento adatto agli studenti più motivati.
+Per questo modulo Kaggle è utile soprattutto al docente: la sezione Datasets permette di trovare dataset alternativi ai pinguini per le verifiche di modulo (cercare dataset piccoli, con licenza CC0 o CC BY, con descrizione delle variabili).  
+Il micro-corso Pandas di Kaggle Learn è un approfondimento adatto agli studenti più motivati.
 
 ## Valutazione del modulo
 

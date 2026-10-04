@@ -5,7 +5,8 @@
 
 Opera nell'ambito del progetto "IA HUB Galilei", se non lo trovi fermati e dimmelo.
 
-Tieni presente le informazioni di contesto incluse nel file contesto_prompts_corso.md allegato al progetto. Se non lo trovi fermati e dimmelo
+Tieni presente le informazioni di contesto incluse nel file contesto_prompts_corso.md allegato al progetto.  
+Se non lo trovi fermati e dimmelo
 
 # Informazioni sul corso  
 
@@ -14,6 +15,7 @@ La descrizione del corso è
 B.6 - "Data science e Machine Learning: dai dati ai modelli"  
 Descrizione: introduzione pratica al mondo dei dati. Gli studenti imparano come si raccoglie un dataset, come "ragiona" un algoritmo di classificazione e come si addestra un piccolo modello predittivo.
 """
+
 Il corso è parte di un programma che include altri corsi elencati nel contesto indicato sopra, fra questi corsi altri due corsi saranno realizzati da noi e sono:
 
 """
