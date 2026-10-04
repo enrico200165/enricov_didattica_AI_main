@@ -314,11 +314,11 @@ flowchart LR
 
 Dimensioni della qualità:
 
-- accuratezza: i valori corrispondono alla realtà (misure corrette, nessun errore di trascrizione)
-- completezza: i valori necessari sono presenti
-- coerenza: stesso dato scritto nello stesso modo e nella stessa unità in tutto il dataset (`bus`, `Bus`, `autobus` sono tre scritture della stessa categoria)
-- attualità: i dati sono abbastanza recenti per la domanda
-- validità: i valori rispettano le regole attese (un tempo non può essere negativo)
+- **accuratezza**: i valori corrispondono alla realtà (misure corrette, nessun errore di trascrizione)
+- **completezza**: i valori necessari sono presenti
+- **coerenza**: stesso dato scritto nello stesso modo e nella stessa unità in tutto il dataset (`bus`, `Bus`, `autobus` sono tre scritture della stessa categoria)
+- **attualità**: i dati sono abbastanza recenti per la domanda
+- **validità**: i valori rispettano le regole attese (un tempo non può essere negativo)
 
 Molti problemi di qualità si evitano in fase di raccolta, progettando bene lo strumento: un menu a tendina con i mezzi ammessi evita le varianti scritte a mano; un campo numerico con unità indicata evita "45 min" e "3/4 d'ora".
 
