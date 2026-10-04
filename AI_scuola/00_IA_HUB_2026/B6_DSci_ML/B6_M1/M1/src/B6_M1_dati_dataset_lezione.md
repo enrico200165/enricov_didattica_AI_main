@@ -17,14 +17,14 @@ lang: it
 
 ## Termini e aree
 
-- Data science
-  insieme di metodi per ricavare conoscenza e previsioni dai dati. Combina statistica, informatica e conoscenza del dominio a cui i dati si riferiscono (biologia, economia, sport, trasporti).
-- Statistica
-  disciplina che studia come raccogliere, descrivere e interpretare i dati e come trarre conclusioni da un campione. È la base matematica della data science.
-- Apprendimento automatico (machine learning)
-  insieme di tecniche con cui un programma ricava dagli esempi una regola per svolgere un compito (riconoscere, prevedere, raggruppare), invece di ricevere la regola scritta da una persona.
-- Intelligenza artificiale (IA)
-  campo dell'informatica che studia sistemi capaci di svolgere compiti che, svolti da una persona, richiedono intelligenza. Oggi la maggior parte dei sistemi di IA si basa sull'apprendimento automatico, ma l'IA comprende anche sistemi a regole e di ricerca.
+- **Data science**
+insieme di metodi per ricavare conoscenza e previsioni dai dati. Combina statistica, informatica e conoscenza del dominio a cui i dati si riferiscono (biologia, economia, sport, trasporti).
+- **Statistica**
+disciplina che studia come raccogliere, descrivere e interpretare i dati e come trarre conclusioni da un campione. È la base matematica della data science.
+- **Apprendimento automatico (machine learning)**
+insieme di tecniche con cui un programma ricava dagli esempi una regola per svolgere un compito (riconoscere, prevedere, raggruppare), invece di ricevere la regola scritta da una persona.
+- **Intelligenza artificiale (IA)**
+campo dell'informatica che studia sistemi capaci di svolgere compiti che, svolti da una persona, richiedono intelligenza. Oggi la maggior parte dei sistemi di IA si basa sull'apprendimento automatico, ma l'IA comprende anche sistemi a regole e di ricerca.
 
 Diagramma: relazioni tra i termini
 
@@ -57,28 +57,30 @@ Esempi di applicazioni:
 
 ## Dato, informazione, conoscenza
 
-- Dato
-  valore registrato: un numero, una parola, una data. Da solo non ha significato: `39.1`.
-- Informazione
-  dato con un contesto: "il becco di questo pinguino è lungo 39,1 mm".
-- Conoscenza
-  regolarità ricavata da molte informazioni: "i pinguini di questa specie hanno il becco più corto di quelli dell'altra".
+- **Dato**
+valore registrato: un numero, una parola, una data. Da solo non ha significato: `39.1`.
+- **Informazione**
+dato con un contesto: "il becco di questo pinguino è lungo 39,1 mm".
+- **Conoscenza**
+regolarità ricavata da molte informazioni: "i pinguini di questa specie hanno il becco più corto di quelli dell'altra".
 
-La data science parte dai dati e produce conoscenza; un modello di apprendimento automatico è una forma di conoscenza che si può usare per fare previsioni su casi nuovi.
+La data science parte dai dati e produce conoscenza;  
+un modello di apprendimento automatico è una forma di conoscenza che si può usare per fare previsioni su casi nuovi.
 
 ## Il dataset tabellare
 
-- Dataset
-  insieme di dati raccolti con uno scopo e organizzati in modo uniforme.
-- Dataset tabellare
-  dataset organizzato come una tabella:
+- **Dataset**
+insieme di dati raccolti con uno scopo e organizzati in modo uniforme.
+- **Dataset tabellare**
+dataset organizzato come una tabella:
   - ogni riga è un'osservazione (o record, o esempio): una cosa, una persona, un evento su cui si è misurato qualcosa
   - ogni colonna è una variabile: una proprietà misurata su tutte le osservazioni
   - la prima riga contiene di solito i nomi delle variabili (intestazione)
-- Unità di osservazione
-  che cosa rappresenta una riga: un pinguino, uno studente, un viaggio, una giornata di misure.
+- **Unità di osservazione**
+che cosa rappresenta una riga: un pinguino, uno studente, un viaggio, una giornata di misure.
 
-Il dataset di riferimento del corso è Palmer Penguins: misure di 344 pinguini di tre specie (Adelie, Chinstrap, Gentoo), raccolte tra il 2007 e il 2009 su tre isole dell'arcipelago di Palmer, in Antartide, dalla dottoressa Kristen Gorman e dal programma di ricerca Palmer Station LTER. I dati sono rilasciati con licenza CC0 (pubblico dominio). Nel corso si usa una versione con i nomi delle colonne tradotti in italiano, `pinguini.csv`.
+Il dataset di riferimento del corso è **Palmer Penguins**: misure di 344 pinguini di tre specie (Adelie, Chinstrap, Gentoo), raccolte tra il 2007 e il 2009 su tre isole dell'arcipelago di Palmer, in Antartide, dalla dottoressa Kristen Gorman e dal programma di ricerca Palmer Station LTER.  
+I dati sono rilasciati con licenza CC0 (pubblico dominio). Nel corso si usa una versione con i nomi delle colonne tradotti in italiano, `pinguini.csv`.
 
 Fonte: Horst AM, Hill AP, Gorman KB (2020), palmerpenguins: Palmer Archipelago (Antarctica) penguin data, https://allisonhorst.github.io/palmerpenguins/
 
@@ -124,31 +126,35 @@ flowchart TB
     N --> NC["continua<br/>qualunque valore in un intervallo<br/>lunghezza, massa, tempo"]
 ```
 
-- Variabile qualitativa (o categorica)
+- Variabile **qualitativa** (o **categorica**)
   assume come valori delle categorie.
   - nominale: le categorie non hanno un ordine (specie, colore, mezzo di trasporto)
   - ordinale: le categorie hanno un ordine naturale (livello: base, intermedio, avanzato; fascia oraria)
-- Variabile quantitativa (o numerica)
+- Variabile **quantitativa** (o **numerica**)
   assume valori numerici su cui hanno senso le operazioni aritmetiche.
   - discreta: valori separati, tipicamente conteggi (numero di uova, numero di fermate)
   - continua: qualunque valore in un intervallo, limitato solo dalla precisione dello strumento (lunghezza, massa, tempo)
 
 Attenzione ai numeri che non sono quantità: CAP, numero di matricola, codice di una classe sono scritti con cifre ma sono qualitativi. La media dei CAP non ha significato.
 
-La precisione di registrazione non cambia il tipo: la massa dei pinguini è registrata ad arrotondamenti di 25 g, ma resta una variabile continua.
+La precisione di registrazione non cambia il tipo:  la massa dei pinguini è registrata ad arrotondamenti di 25 g, ma resta una variabile continua.
 
 ## Caratteristiche ed etichetta
 
 Quando un dataset viene usato per costruire un modello, le variabili hanno due ruoli:
 
-- Caratteristiche (feature)
+- **Caratteristiche** (**features**)
   variabili usate come ingresso del modello: le informazioni disponibili.
-- Etichetta (target, variabile obiettivo)
+- **Etichetta** ( target, variabile obiettivo)
   variabile che il modello deve prevedere.
 
-Esempio: prevedere la specie di un pinguino dalle misure del becco e della pinna. Caratteristiche: `becco_lunghezza_mm`, `becco_profondita_mm`, `pinna_lunghezza_mm`. Etichetta: `specie`.
+Esempio: prevedere la specie di un pinguino dalle misure del becco e della pinna.  
+- Caratteristiche:
+`becco_lunghezza_mm`, `becco_profondita_mm`, `pinna_lunghezza_mm`.  
+- Etichetta: `specie`.
 
-Lo stesso dataset può servire a domande diverse: prevedere la massa dalla lunghezza della pinna usa `pinna_lunghezza_mm` come caratteristica e `massa_g` come etichetta. La scelta dipende dalla domanda.
+Lo stesso dataset può servire a domande diverse: prevedere la massa dalla lunghezza della pinna usa `pinna_lunghezza_mm` come caratteristica e `massa_g` come etichetta.  
+La scelta dipende dalla domanda.
 
 ## Il ciclo della data science
 
@@ -196,10 +202,10 @@ Adelie,Torgersen,,,,,,2007
 
 Aspetti da controllare quando si apre un CSV:
 
-- separatore: virgola nei file internazionali; nei file prodotti con impostazioni italiane spesso punto e virgola, perché la virgola è il separatore decimale
-- separatore decimale: punto (`39.1`) nei file internazionali, virgola (`39,1`) in molti file italiani; se il programma lo interpreta male, i numeri diventano testo o vengono letti in modo errato
-- codifica dei caratteri: UTF-8 è lo standard attuale; con codifiche diverse le lettere accentate appaiono come simboli strani (`Ã¨` al posto di `è`)
-- valori mancanti: cella vuota, oppure codici come `NA`, `NaN`, `-`, `999`, da riconoscere prima di calcolare
+- **separatore**: virgola nei file internazionali; nei file prodotti con impostazioni italiane spesso punto e virgola, perché la virgola è il separatore decimale
+- **separatore decimale**: punto (`39.1`) nei file internazionali, virgola (`39,1`) in molti file italiani; se il programma lo interpreta male, i numeri diventano testo o vengono letti in modo errato
+- **codifica dei caratteri**: UTF-8 è lo standard attuale; con codifiche diverse le lettere accentate appaiono come simboli strani (`Ã¨` al posto di `è`)
+- **valori mancanti**: cella vuota, oppure codici come `NA`, `NaN`, `-`, `999`, da riconoscere prima di calcolare
 
 ## Laboratorio L1
 
@@ -246,10 +252,10 @@ Esercizio 5 (approfondimento): scrivere tre domande a cui il dataset può rispon
 
 Ogni raccolta di dati parte da una domanda. La domanda stabilisce:
 
-- l'unità di osservazione: che cosa rappresenta una riga
-- le variabili: che cosa misurare
-- il livello di dettaglio: con quale precisione e con quali categorie
-- la popolazione: su chi o su che cosa
+- l'**unità di osservazione**: che cosa rappresenta una riga
+- le **variabili**: che cosa misurare
+- il livello di **dettaglio**: con quale precisione e con quali categorie
+- la **popolazione**: su chi o su che cosa
 
 Esempio del corso: "Quanto tempo impiegano gli studenti della scuola ad arrivare, e da che cosa dipende?"
 
@@ -275,13 +281,13 @@ Una domanda vaga ("studiamo i trasporti") produce dati raccolti senza criterio, 
 
 ## Popolazione, campione, distorsione
 
-- Popolazione
+- **Popolazione**
   l'insieme completo su cui si vuole trarre una conclusione: tutti gli studenti della scuola, tutti i pinguini Adelie dell'arcipelago.
-- Campione
-  la parte della popolazione effettivamente osservata.
-- Campione rappresentativo
+- **Campione**
+  la *parte* della popolazione effettivamente osservata.
+- **Campione rappresentativo**
   campione le cui caratteristiche rispecchiano quelle della popolazione. Si ottiene di solito con una scelta casuale e con un numero sufficiente di osservazioni.
-- Distorsione del campione (bias di selezione)
+- **Distorsione** del campione (bias di selezione)
   differenza sistematica tra campione e popolazione dovuta al modo in cui il campione è stato scelto.
 
 Esempi di distorsione:
@@ -289,9 +295,9 @@ Esempi di distorsione:
 - questionario sui tragitti compilato solo dagli studenti presenti il primo giorno di sciopero dei mezzi: sovrarappresenta chi arriva a piedi o in auto
 - sondaggio online su un sito di appassionati: rappresenta gli appassionati, non la popolazione
 - misure raccolte solo in estate: non descrivono l'inverno
-- dataset di foto di volti con poche persone di certe fasce d'età o carnagione: un modello addestrato su di esso funziona peggio proprio per quelle persone (L14)
+- dataset di foto di volti con poche persone di certe fasce d'età o carnagione: un modello addestrato su di esso funziona peggio proprio per quelle persone (L14)  
 
-Un modello impara ciò che è nei dati: se il campione è distorto, il modello eredita la distorsione.
+> Un modello impara ciò che è nei dati: se il campione è distorto, il modello eredita la distorsione.  
 
 Diagramma: popolazione, campione e distorsione
 
