@@ -19,7 +19,7 @@ Descrizione: introduzione pratica al mondo dei dati. Gli studenti imparano come 
 Descrizione: corso puramente tecnico di introduzione alla sintassi Python e alle librerie fondamentali per comprendere le basi matematiche e logiche delle reti neurali.
 
 
-## Calendarizzazione
+## Calendarizzazione Originaria
 
 Ogni corso deve essere nello stesso giorno della settimana, dalle 14:45 alle 18. 
 I giorni sono martedi mercoledi e giovedi.  

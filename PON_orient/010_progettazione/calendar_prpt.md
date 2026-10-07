@@ -43,7 +43,7 @@ Percorso che unisce le competenze tecniche al **lavoro di squadra e al problem s
 Ogni corso deve essere nello stesso giorno della settimana, dalle 15:00 alle 18.  
 
 Al i giorni della settimana disponibili per i corsi sono solo lunedi e venerdi.  
-La data di inizio è lunedì 12 Ottobre.
+La data di inizio è lunedì 19 Ottobre.
 Tieni conto delle festività Italiane, del Lazio e di Roma, in particolare di quelle della scuola.
 Evita giorni a ridosso di festività, avvisa di questo.
 
@@ -61,6 +61,9 @@ In coda, dopo la calendarizzazione:
 
 Genera testo MD che per ogni corso include il titolo, la descrizione, la calendarizzazione di ogni sessione con data e orario.
 In coda spiega la pianificazione (ex. posticipi per avere tutti i corsi almeno 2 lezioni nel 2026)
+
+Come formato usa plain text, ben indentato, prima della lista delle singole date inserisci una frase in cui indichi per ogni corso la prima e ultima data
+
 
 In caso di problemi o dubbi chiedi
 
