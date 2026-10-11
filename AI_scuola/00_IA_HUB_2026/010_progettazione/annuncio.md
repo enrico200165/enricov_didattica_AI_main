@@ -2,9 +2,6 @@ CORSI AI SCHOOL HUB – SNODO TERRITORIALE PER LA DIDATTICA INTELLIGENTE
 
 L'orario è flessibile e verrà adattato alle esigenze dei partecipanti, entro i limiti consentiti dalla disponibilità delle infrastrutture e delle risorse didattiche.
 
-La calendarizzazione è soggetta alla disponibilità delle infrastrutture necessarie (aule laboratorio, PC, software specifico per il laboratorio, la cui lista verrà fornita prima dell'inizio del corso).
-
-
 ORARIO
 
 B.4 - CYBERSICUREZZA E IA: DIFENDERE E ATTACCARE: LA SICUREZZA AI TEMPI DELL'IA
