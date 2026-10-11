@@ -19,7 +19,20 @@ Descrizione: introduzione pratica al mondo dei dati. Gli studenti imparano come 
 Descrizione: corso puramente tecnico di introduzione alla sintassi Python e alle librerie fondamentali per comprendere le basi matematiche e logiche delle reti neurali.
 
 
-## Calendarizzazione Originaria
+## Azione richiesta  
+
+Dimmi se tenendo conto dei requisiti sopra elencati è possibile competare i corsi entro il 2026 se 
+- l'istruttore è nominato il  15 set 2026, quindi i corsi possono cominciare solo a partire dalla settimana successiva
+- sono possibili 3 ore al giorno, 
+
+Valuta poi se è possibile essendo l'istruttore già impegnato in altri 4 corsi, ognuno dei quali occupa pienamente 3 giorni.
+
+In entrambi i casi:
+- fai precedere da responso conciso e sintetico per entrambi i corsi
+- specifica i motivi
+
+
+## Azione richiesta
 
 Ogni corso deve essere nello stesso giorno della settimana, dalle 14:45 alle 18. 
 I giorni sono martedi mercoledi e giovedi.  
