@@ -34,7 +34,7 @@ Genera i contenuti seguenti, in plain text:
 
 - All'inizio riporta il titolo del programma, ex. "CORSI SCHOOL HUB ..."
 - Avvisa che l'orario è flessibile e verrà adattato alle esigenze dei partecipanti entro i limiti consentiti dalla disponiblità delle infrastrutture e risorse didattiche.  
-- In una sezione chiamata "Orario" inserisci, per ogni corso, titolo (in maiuscolo), lezione (esempio di formato "Martedi, 15:00 - 18:00), descrizione del corso
+- In una sezione chiamata "Orario" inserisci, per ogni corso, titolo (in maiuscolo), lezione (esempio di formato "Martedi, 15:00 - 18:00), sulla stessa riga inserisci. Data della prima lezione, descrizione del corso.
 - In una sezione chiamata calendario, visivamente ben separata dalle precedenti, inserisci per ogni corso il calendario di tutte le lezioni
 - In una sezione chiamata "note interne" visivamente ben separata dalle precedenti,
   - Avvisa che la calendarizzazione è soggetta alla disponibilità delle infrastrutture necessarie (aule laboratorio, PC, software specifico al lab la cui lista verrà fornita prima dell'inizio del corso)
