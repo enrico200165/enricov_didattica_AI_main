@@ -6,6 +6,10 @@ lang: it
 
 # B.4 - Cybersicurezza e IA
 
+Codice scuola futura: 459213 
+link https://scuolafutura-areariservata.pubblica.istruzione.it/fofu-pnsd-area-riservata-web/private/tutti_i_percorsi/dettaglio
+
+
 ## Scheda del corso
 
 - Titolo: Cybersicurezza e IA: Difendere e attaccare: la sicurezza ai tempi dell'IA

@@ -33,11 +33,15 @@ Questa tipologi prevede le seguenti caratteristiche comuni:
 
 ## B.4 - "Cybersicurezza e IA: Difendere e attaccare: la sicurezza ai tempi dell'IA"
 
+Codice scuola futura: 459213 
+link https://scuolafutura-areariservata.pubblica.istruzione.it/fofu-pnsd-area-riservata-web/private/tutti_i_percorsi/dettaglio
+
+
 Descrizione: gli studenti scoprono come gli hacker usano l'intelligenza artificiale per attaccare e come i sistemi di difesa la usano per proteggersi. Il modulo è incentrato su password sicure, phishing avanzato e cybersicurezza.
 
 Laurea richiesta per il ruolo di esperto: Laurea Magistrale in materie STEM (Fisica, Matematica, Chimica, Biologia, Ingegneria, Informatica) con competenze di programmazione e cybersicurezza.
 
-## B.6 - "Data science e Machine Learning: dai dati ai modelli"
+## B.6 - "Data science e Machine Learning: dai dati ai modelli" (459215)
 
 Descrizione: introduzione pratica al mondo dei dati. Gli studenti imparano come si raccoglie un dataset, come "ragiona" un algoritmo di classificazione e come si addestra un piccolo modello predittivo.
 
