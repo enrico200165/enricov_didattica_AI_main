@@ -40,6 +40,9 @@ Desktop.ini
 ~$*.ppt
 *.tmp
 
+
+*ro.pdf
+
 # === File temporanei di LaTeX / Pandoc (generati durante la conversione a PDF) ===
 *.aux
 *.log
