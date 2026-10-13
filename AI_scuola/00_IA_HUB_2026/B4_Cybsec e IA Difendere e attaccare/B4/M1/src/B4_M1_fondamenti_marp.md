@@ -1,5 +1,9 @@
 ---
 marp: true
+
+backgroundImage: url('/005_authoring_gen/imgs/sfondo-copyright-slide_land_12ptx.png')
+backgroundSize: cover
+
 theme: default
 paginate: true
 size: 16:9
