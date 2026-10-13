@@ -1,5 +1,7 @@
 
 *.zip
+*_ro.pdf
+
 
 # === Sistema operativo ===
 .DS_Store
