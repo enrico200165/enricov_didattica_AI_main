@@ -2,19 +2,22 @@
 CORSI NELL'AMBITO DEL PROGETTO FUTURO ONLIFE: PERCORSI DI ORIENTAMENTO TRA SCUOLA, TERRITORIO E IMPRESA  
 
 
-I corsi collegano i temi normalmente studiati nell'istituto tecnico informatico alle tematiche informatiche oggi più rilevanti, sia di per sé sia nel mondo del lavoro.  
+I corsi collegano i temi normalmente studiati nell'istituto tecnico informatico alle tematiche informatiche oggi più rilevanti, sia per sé sia nel mondo del lavoro.  
 
 Sono pensati in prospettiva di orientamento: oltre ai contenuti disciplinari, forniranno spunti per l'orientamento e informazioni sul mondo dell'informatica professionale.  
 
-I corsi non sono riconosciuti come ore di formazione scuola-lavoro (FSL) ma, in tutti i casi in cui è possibile, sono basati su corsi attualmente riconosciuti come FSL dal nostro istituto:  
+I corsi non sono riconosciuti come ore di formazione scuola-lavoro (FSL) ma quando possibile sono basati su corsi attualmente riconosciuti come FSL dal nostro istituto:  
 
 - Cisco "**Introduzione alla cybersecurity**" per il corso "Cybersecurity ed Ethical Hacking
 - Cisco "**CCNA: Introduzione alle reti**" per il corso "Reti, Cloud e Gestione dei Dati"  
 - Hackersgen "**Tech Journey per Full-Stack Web Developer**" per il corso "Sviluppo Software e Coding Laboratoriale"  
 
+ORARIO E FREQUENZA
+
+I corsi sono tenuti in presenza presso il Galilei
+
 Gli orari sono soggetti a rimodulazione, sia per facilitare la frequenza sia per vincoli eventualmente posti dalla disponibilità di infrastrutture e risorse didattiche.
 
-ORARIO
 
 CYBERSECURITY ED ETHICAL HACKING  
 Lezioni: il lunedì, 15:00-18:00; prima lezione: lunedì 19 ottobre 2026  
