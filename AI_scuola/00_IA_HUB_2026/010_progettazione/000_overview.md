@@ -1,12 +1,14 @@
 
 # Avviso Snodi Formativi - corsi Intelligenza Artificiale
 
-Sono disponibili corsi sull'Intelligenza Artificiale erogati dall'ITIS Galileo Galilei di Roma nell'ambito del progetto "AI School Hub, Snodo territoriale per la didattica intelligente (M4C1I2.1-2026-1745-P-64158)".
+Sono disponibili corsi sull'Intelligenza Artificiale erogati dall'ITIS Galileo Galilei di Roma nell'ambito del progetto  
+**"AI School Hub, Snodo territoriale per la didattica intelligente (M4C1I2.1-2026-1745-P-64158)"**.
 
-I corsi sono indirizzati al personale docente.
+I corsi sono indirizzati al personale docente.  
 L'iscrizione va effettuata entro il giorno precedente l'inizio del corso sulla piattaforma "Scuola Futura".
 
-Informazioni generali:
+Informazioni generali:  
+
 - Ore totali: 18 (in 6 sessioni settimanali di 3 ore)
 - Modalità di svolgimento: in presenza presso l'ITIS Galilei
 - Al termine è previsto il rilascio di specifica attestazione, soggetto a vincolo sul minimo delle presenze  
@@ -14,9 +16,10 @@ Informazioni generali:
 
 ## Corso B.4 - "Cybersicurezza e IA: Difendere e attaccare: la sicurezza ai tempi dell'IA" (459213)
 
-ID scuola futura: 459213 
+ID scuola futura: 459213. Data inizio: 20/10/2026.  
 
-Descrizione: i partecipanti apprendono come gli hacker usano l'intelligenza artificiale per attaccare e come i sistemi di difesa la usano per proteggersi.  
+Descrizione:  
+i partecipanti apprendono come gli hacker usano l'intelligenza artificiale per attaccare e come i sistemi di difesa la usano per proteggersi.  
 Il corso è incentrato su password sicure, phishing avanzato e cybersicurezza.
 
 Obiettivi:  
@@ -33,11 +36,12 @@ Obiettivi:
 - adottare un comportamento etico: le tecniche di attacco si studiano per difendersi e si sperimentano solo in ambienti predisposti e autorizzati
 
 
-## Corso B.6 - "Data science e Machine Learning: dai dati ai modelli" (459215)
+## Corso B.6 - "Data science e Machine Learning: dai dati ai modelli"  
 
-ID scuola futura: 459215
+ID scuola futura: 461872.  Data inizio: 21/10/2026.  
 
-Descrizione: introduzione pratica al mondo dei dati. I partecipanti imparano come si raccoglie un dataset, come "ragiona" un algoritmo di classificazione e come si addestra un piccolo modello predittivo.
+Descrizione:  
+introduzione pratica al mondo dei dati. I partecipanti imparano come si raccoglie un dataset, come "ragiona" un algoritmo di classificazione e come si addestra un piccolo modello predittivo.
 
 Obiettivi:
 
@@ -56,11 +60,12 @@ Obiettivi:
 - riconoscere distorsioni (bias) e comprendere il "data leakage"
 
 
-## Corso B.8 - "Linguaggio Python per il Machine Learning ed il Deep Learning: Python per l'Intelligenza Artificiale" (459216)
+## Corso B.8 - "Linguaggio Python per il Machine Learning ed il Deep Learning: Python per l'Intelligenza Artificiale"  
 
-ID scuola futura: 459216
+ID scuola futura: 459216. Data inizio: 22/10/2026,
 
-Descrizione: corso puramente tecnico di introduzione alla sintassi Python e alle librerie fondamentali per comprendere le basi matematiche e logiche delle reti neurali.
+Descrizione:  
+corso puramente tecnico di introduzione alla sintassi Python e alle librerie fondamentali per comprendere le basi matematiche e logiche delle reti neurali.
 
 Obiettivi:
 - scrivere, eseguire e correggere programmi Python di piccole dimensioni in un editor/IDE e in un notebook Jupyter
@@ -71,3 +76,4 @@ Obiettivi:
 - spiegare e implementare l'apprendimento di un perceptron e la discesa del gradiente
 - implementare in NumPy il calcolo in avanti (forward pass) di una piccola rete a più strati e descrivere il principio della retropropagazione (backpropagation)
 - riconoscere nel codice di un framework di deep learning (Keras, PyTorch) gli stessi elementi implementati a mano
+
