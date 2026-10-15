@@ -10,16 +10,16 @@ Sono tre concetti di tipo diverso. Percorso e laboratorio sono due tipi di corso
   È un tipo di corso, fatto di lezioni o workshop, in presenza, online o misto. Pagina 5 dell'avviso ministeriale: "Ciascuna lezione è tenuta da un formatore esperto [...] coadiuvato da un tutor." Serve almeno 1 gruppo di 10: "I Percorsi sono erogati a gruppi di almeno 10 corsisti che conseguono l'attestato finale."  
   Nell'avviso della scuola i percorsi sono i codici A.1-A.8, da 14 ore per edizione (pagina 2, tabella).
 - **Laboratorio formativo sul campo.**  
-  È un tipo di corso diverso: un ciclo di incontri in presenza di tutoraggio, mentoring, affiancamento. Pagina 5: "I Laboratori formativi sul campo [...] sono erogati a gruppi di almeno 5 unità di personale che conseguono l'attestato finale." Non è previsto il tutor.  
+  È un tipo di corso diverso: un ciclo di incontri **in presenza** di tutoraggio, mentoring, affiancamento. Pagina 5: "I Laboratori formativi sul campo [...] sono erogati a gruppi di **almeno 5 unità di personale** che conseguono l'attestato finale." Non è previsto il tutor.  
   Nell'avviso della scuola i laboratori sono i codici B.1-B.8, da 18 ore per edizione (pagina 4, tabella). **I miei tre codici, B4, B6 e B8, sono laboratori** (pagine 4 e 5 dell'avviso della scuola).
 - **Edizione.** È una singola realizzazione di un percorso o di un laboratorio, con un suo gruppo di partecipanti.
 - **Attestato.**  
-  È il certificato finale del singolo partecipante. Per ottenerlo serve la frequenza: pagina 6 dell'avviso ministeriale, "una partecipazione ad almeno il 70% delle ore previste dal percorso/laboratorio".  
+  È il certificato finale del singolo partecipante. Per ottenerlo serve la frequenza: pagina 6 dell'avviso ministeriale, "una partecipazione ad **almeno il 70% delle ore** previste dal percorso/laboratorio".  
   Per un mio laboratorio da 18 ore, il 70% è 12,6 ore, quindi servono 13 ore di presenza (calcolo mio).
 - **Iscritto non è attestato.**  
   Un iscritto che frequenta meno del 70% non genera un attestato. Le soglie di 5, 10 e 50 contano gli attestati, non gli iscritti.
 - **Soglie, in ordine di grandezza.**  
-  5 attestati per ogni edizione di laboratorio, 10 per ogni edizione di percorso, 50 per l'intero progetto (pagina 4, art. 4, comma 7: "Ciascun progetto finanziato dovrà garantire la partecipazione complessiva di un minimo di 50 unità di personale scolastico che conseguono l'attestato finale.").
+  **5 attestati per ogni edizione di laboratorio**, 10 per ogni edizione di percorso, 50 per l'intero progetto (pagina 4, art. 4, comma 7: "Ciascun progetto finanziato dovrà garantire la partecipazione complessiva di un minimo di 50 unità di personale scolastico che conseguono l'attestato finale.").
 
 ```mermaid
 flowchart TD
@@ -35,7 +35,7 @@ flowchart TD
 ## 1. Avviso interno della scuola (prot. 10890/2026)
 
 - **Laboratori: minimo di 5 attestati.**  
-  Pagina 4: "I Laboratori formativi sul campo, anche con il coinvolgimento degli studenti, sono erogati a gruppi di almeno 5 unità di personale che conseguono l'attestato finale."
+  Pagina 4: "I Laboratori formativi sul campo, anche con il coinvolgimento degli studenti, sono erogati a gruppi di **almeno 5** unità di personale che conseguono **l'attestato finale**."
 - **Monitoraggio del numero minimo, senza cifre.**  
   Pagina 6, tutor: "segnala in tempo reale al Dirigente Scolastico se il numero dei partecipanti scende al di sotto del previsto in relazione al numero minimo di attestazioni da raggiungere".  
   [lettura] La scuola controlla il rischio, ma l'avviso non scrive le conseguenze sul compenso.
@@ -47,7 +47,7 @@ flowchart TD
   Pagina 10, art. 4, comma 1: "L'attività oggetto dell'incarico decorrerà dalla sottoscrizione della lettera d'incarico e fino al 31/12/2026."  
   [lettura] Le ore non svolte entro questa data non sono pagate.
 - **Il differimento è eccezionale.**  
-  Pagina 10, art. 4, comma 2: "L'eventuale differimento del termine di conclusione dell'incarico originario è consentito, in via eccezionale, al solo fine di completare il progetto e per ritardi non imputabili al collaboratore, ferma restando la misura del compenso pattuito".
+  Pagina 10, art. 4, comma 2: "L'eventuale differimento del termine di conclusione dell'incarico originario è consentito, in via eccezionale, al solo fine di completare il progetto **e per ritardi non imputabili al collaboratore**, ferma restando la misura del compenso pattuito".
 - **Importo massimo per edizione di laboratorio.**  
   Pagina 4: "18" ore per edizione, 8 edizioni, 8 esperti, "2.196,00 €" per esperto.  
   Il calcolo 18 × 122 = 2.196 è mio.
