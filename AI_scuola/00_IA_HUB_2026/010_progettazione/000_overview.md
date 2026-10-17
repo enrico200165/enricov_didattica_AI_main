@@ -14,7 +14,7 @@ Informazioni generali:
 - Al termine è previsto il rilascio di specifica attestazione, soggetto a vincolo sul minimo delle presenze  
 
 
-## Corso B.4 - "Cybersicurezza e IA: Difendere e attaccare: la sicurezza ai tempi dell'IA" (459213)
+## Corso B.4 - "Cybersicurezza e IA: Difendere e attaccare: la sicurezza ai tempi dell'IA"
 
 ID scuola futura: 459213. Data inizio: 20/10/2026.  
 
