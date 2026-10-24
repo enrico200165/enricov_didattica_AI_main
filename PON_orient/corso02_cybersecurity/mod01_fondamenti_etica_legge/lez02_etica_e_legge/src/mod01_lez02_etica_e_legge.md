@@ -4,9 +4,11 @@ subtitle: "Modulo 1: Fondamenti, etica e legge. Cybersecurity ed Ethical Hacking
 lang: it
 ---
 
-# Lezione 1.2: Etica e legge
+# Lezione 1.2: Etica e legge  
 
-Contenuto originale. Fonti normative indicate nel testo. Le informazioni hanno scopo didattico e non sostituiscono una consulenza legale.
+
+Contenuto originale. Fonti normative indicate nel testo.  
+Le informazioni hanno scopo didattico e non sostituiscono una consulenza legale.
 
 ## 1.2.1 Hacker ed ethical hacker
 
@@ -20,29 +22,35 @@ Il criterio che separa le due attività non è la tecnica usata, spesso identica
 Un'attività di ethical hacking professionale ha sempre:
 
 - **autorizzazione scritta** del proprietario del sistema
-- **perimetro** definito: quali sistemi, in quale periodo, con quali tecniche ammesse
+- **perimetro definito**: quali sistemi, in quale periodo, con quali tecniche ammesse
 - **riservatezza** su ciò che viene scoperto
 - **rapporto finale** con vulnerabilità trovate, rischi e contromisure proposte
 - attenzione a **non causare danni**: nessuna interruzione dei servizi, nessuna modifica o sottrazione di dati
 
 ## 1.2.2 Divulgazione coordinata delle vulnerabilità
 
-Chi scopre una vulnerabilità in un sistema altrui, per esempio notando un errore mentre usa un sito, non deve verificarla con prove sul sistema né divulgarla. La prassi corretta è la **divulgazione coordinata** (coordinated vulnerability disclosure): si segnala il problema al responsabile, o a un coordinatore nazionale, e lo si rende pubblico solo dopo che è stata resa disponibile una correzione.
+Chi scopre una vulnerabilità in un sistema altrui, per esempio notando un errore mentre usa un sito, non deve verificarla con prove sul sistema né divulgarla.  
 
-Riferimento: ENISA, agenzia dell'Unione europea per la cibersicurezza, "Vulnerability disclosure", https://www.enisa.europa.eu/topics/vulnerability-disclosure . ENISA gestisce anche la banca dati europea delle vulnerabilità (EUVD).
+La prassi corretta è la **divulgazione coordinata** (coordinated vulnerability disclosure):  
+si segnala il problema al responsabile, o a un coordinatore nazionale, e lo si rende pubblico solo dopo che è stata resa disponibile una correzione.  
 
-Molte organizzazioni pubblicano una **politica di segnalazione** con i contatti e le regole da seguire; alcune offrono premi a chi segnala vulnerabilità (bug bounty), sempre entro regole precise.
+Riferimento: ENISA, agenzia dell'Unione europea per la cibersicurezza, "Vulnerability disclosure", https://www.enisa.europa.eu/topics/vulnerability-disclosure .  
+ENISA gestisce anche la banca dati europea delle vulnerabilità (EUVD).
+
+Molte organizzazioni pubblicano una **politica di segnalazione** con i contatti e le regole da seguire; alcune offrono premi a chi segnala vulnerabilità (**bug bounty**), sempre entro regole precise.
 
 ## 1.2.3 I reati informatici
 
-Il codice penale italiano punisce diversi comportamenti informatici. Il più rilevante per chi studia sicurezza è l'**accesso abusivo a un sistema informatico o telematico** (art. 615-ter c.p.): è punito chi si introduce abusivamente in un sistema protetto da misure di sicurezza, o vi si mantiene contro la volontà espressa o tacita di chi ha il diritto di escluderlo.
+Il codice **penale** italiano punisce diversi comportamenti informatici.  
+Il più rilevante per chi studia sicurezza è l'**accesso abusivo a un sistema informatico o telematico** (art. 615-ter c.p.): è punito chi si introduce abusivamente in un sistema protetto da misure di sicurezza, o vi si mantiene contro la volontà espressa o tacita di chi ha il diritto di escluderlo.
 
 Elementi da notare:
 
-- basta l'**accesso**: il reato sussiste anche senza danni, furti o modifiche
+- basta l'**accesso**: il reato sussiste **anche senza danni, furti o modifiche**
 - basta che il sistema sia **protetto da misure di sicurezza**, anche semplici come una password
 - anche chi è autorizzato commette reato se **resta** nel sistema o lo usa oltre i limiti dell'autorizzazione
-- la pena base è la reclusione fino a tre anni; nei casi aggravati, per esempio se dal fatto derivano la distruzione o il danneggiamento dei dati o l'interruzione del sistema, è la reclusione da due a dieci anni, e aumenta ancora per i sistemi di interesse pubblico (militari, sanitari, di ordine pubblico, di protezione civile). Le pene dei casi aggravati sono state inasprite dalla Legge 90/2024 sulla cybersicurezza.
+- la pena base è la reclusione fino a tre anni; nei casi aggravati, per esempio se dal fatto derivano la distruzione o il danneggiamento dei dati o l'interruzione del sistema, è la reclusione da due a dieci anni, e aumenta ancora per i sistemi di interesse pubblico (militari, sanitari, di ordine pubblico, di protezione civile).  
+Le pene dei casi aggravati sono state inasprite dalla Legge 90/2024 sulla cybersicurezza.
 
 Testo e commento: Brocardi, art. 615-ter c.p., https://www.brocardi.it/codice-penale/libro-secondo/titolo-xii/capo-iii/sezione-iv/art615ter.html
 
@@ -53,7 +61,14 @@ Altri reati informatici, tra cui:
 - frode informatica (art. 640-ter c.p.)
 - intercettazione illecita di comunicazioni informatiche (art. 617-quater c.p.)
 
-**Minorenni**: in Italia chi ha compiuto 14 anni può essere ritenuto penalmente responsabile, se il giudice ne riconosce la capacità di intendere e di volere (art. 98 c.p.); la pena è ridotta. Uno "scherzo" come entrare nell'account di un compagno o nel registro elettronico ha quindi conseguenze legali reali, oltre a quelle disciplinari e civili (risarcimento dei danni).
+
+### Minorenni  
+
+**Da 14 a 18 anni**  
+Il minore è imputabile se il giudice accerta, caso per caso, che al momento del fatto aveva la capacità di intendere e di volere (art. 98 c.p.). Se la capacità viene riconosciuta, il minore è condannato con una pena ridotta; il procedimento si svolge davanti al tribunale per i minorenni.  
+
+**Dai 18 anni**  
+Si risponde come qualunque adulto.
 
 ## 1.2.4 Il quadro istituzionale
 

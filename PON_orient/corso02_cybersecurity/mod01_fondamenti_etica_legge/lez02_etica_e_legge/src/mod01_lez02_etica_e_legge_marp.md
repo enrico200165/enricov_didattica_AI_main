@@ -2,6 +2,11 @@
 marp: true
 paginate: true
 lang: it
+theme: scuola-a4-landscape 
+
+backgroundImage: url('/005_authoring_gen/imgs/sfondo-copyright-slide_land_12ptx.png')
+backgroundSize: cover
+
 ---
 
 ## Lezione 1.2: Etica e legge

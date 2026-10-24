@@ -2,6 +2,10 @@
 marp: true
 paginate: true
 lang: it
+
+backgroundImage: url('/005_authoring_gen/imgs/sfondo-copyright-slide_land_12ptx.png')
+backgroundSize: cover
+
 ---
 
 ## Lezione 1.1: Sicurezza e rischio
@@ -24,7 +28,7 @@ Sicurezza: processo continuo, non stato definitivo
 
 ---
 
-## Asset, minacce, vulnerabilità, rischio
+## Asset, minacce, vulnerabilità, rischio  
 
 ```mermaid
 flowchart LR
@@ -39,9 +43,17 @@ flowchart LR
 
 ## Contromisure
 
-- Per funzione: **preventive**, **rilevative**, **correttive**
-- Per natura: **tecniche**, **organizzative**, **fisiche**
-- **Difesa in profondità**: più livelli
+Per funzione:  
+- **preventive**,  
+- **rilevative**,  
+- **correttive**
+
+Per natura:  
+- **tecniche**, 
+- **organizzative**, 
+- **fisiche**
+
+**Difesa in profondità**: più livelli
 
 ---
 
@@ -53,7 +65,20 @@ flowchart LR
 | **Media** | basso | medio | alto |
 | **Bassa** | basso | basso | medio |
 
-Mitigare, trasferire, accettare, evitare; **rischio residuo** mai zero
+
+---  
+
+## Approcci al rischio  
+
+- mitigare,  
+
+- trasferire,  
+
+- accettare,  
+
+- evitare; 
+
+Il **rischio residuo** non è mai zero
 
 ---
 
