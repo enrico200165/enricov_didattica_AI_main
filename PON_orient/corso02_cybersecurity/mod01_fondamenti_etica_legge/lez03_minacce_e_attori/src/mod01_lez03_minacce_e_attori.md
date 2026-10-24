@@ -6,9 +6,11 @@ lang: it
 
 # Lezione 1.3: Minacce e attori
 
-> Fonte: adattamento, tradotto e riscritto, della lezione "Common cybersecurity threats" del corso Microsoft "Security-101", https://github.com/microsoft/Security-101 . Licenza CC0 1.0 (pubblico dominio). Classificazioni, esempi e attività sono contenuto originale.
+> Fonte: adattamento, tradotto e riscritto, della lezione "Common cybersecurity threats" del corso Microsoft "Security-101", https://github.com/microsoft/Security-101 . Licenza CC0 1.0 (pubblico dominio). Classificazioni, esempi e attività sono contenuto originale.  
 
-Le minacce sono descritte a livello concettuale: che cosa sono, quali condizioni le rendono possibili, quale impatto hanno, quali contromisure le contrastano. Gli approfondimenti tecnici, sempre dal punto di vista della difesa, sono nei moduli successivi.
+Qui le minacce sono descritte a livello concettuale: che cosa sono, quali condizioni le rendono possibili, quale impatto hanno, quali contromisure le contrastano.  
+
+Gli approfondimenti tecnici, sempre dal punto di vista della difesa, sono nei moduli successivi.
 
 ## 1.3.1 Categorie di minacce
 
@@ -78,7 +80,8 @@ Tempo indicativo: 30 minuti, a gruppi.
 | Contromisure che avrebbero potuto ridurre il danno | |
 | Fonti (URL) | |
 
-3. Presentazione in 3 minuti per gruppo; confronto finale: quali minacce ricorrono più spesso?
+3. Presentazione in 3 minuti per gruppo;  
+confronto finale: quali minacce ricorrono più spesso?
 
 Attenzione alle fonti: preferire testate giornalistiche note, comunicati ufficiali delle organizzazioni coinvolte e avvisi istituzionali; diffidare di post anonimi e titoli sensazionalistici.
 

@@ -2,6 +2,9 @@
 marp: true
 paginate: true
 lang: it
+backgroundImage: url('/005_authoring_gen/imgs/sfondo-copyright-slide_land_12ptx.png')
+backgroundSize: cover
+
 ---
 
 ## Lezione 1.3: Minacce e attori
